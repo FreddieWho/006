@@ -1,0 +1,32 @@
+phase: v6.2.1_phase8_anchor_context_adjudication
+seed: 1729
+output_dir: results/v6_2/phase8_anchor_context_adjudication
+inputs:
+  phase7_handoff: results/v6_2/phase7_module_measurement_and_barrier_identifiability/handoff/phase7b_to_phase8_handoff.yaml
+  barrier_matrix: results/v6_2/phase7_module_measurement_and_barrier_identifiability/handoff/eligible_barrier_score_matrix_v0.parquet
+  barrier_table: results/v6_2/phase7_module_measurement_and_barrier_identifiability/identifiability/eligible_barrier_set_v0.csv
+  coarse_matrix: results/v6_2/phase7_module_measurement_and_barrier_identifiability/measurement/module_activity_by_patient_timepoint_residualized.coarse_sensitivity.parquet
+  phase6_membership: results/v6_2/phase6_module_algorithm_benchmark_strengthened/consensus/module_membership.frozen_v1.csv
+  sample_metadata: results/v6_2/sample_metadata_master.frozen_v0.csv
+  patient_metadata: results/v6_2/patient_metadata_master.frozen_v0.csv
+  cohort_registry: results/v6_2/cohort_registry.frozen_v0.csv
+  dataset_roles: results/v6_2/dataset_role_and_feature_eligibility.frozen_v0.csv
+  response_environment: results/v6_2/response_label_environment.frozen_v0.csv
+  response_binding: results/v6_2/phase4b_immune_state_feature_construction/response_environment/response_environment_binding_table.csv
+  gse301741_h5ad: data/processed/srt/raw/gse301741.h5ad
+  gse286827_patient_metadata: data/external_anchor_candidates/GSE286827_hnscc_durvalumab_scRNA/GSE286827_patient_response_metadata.tsv
+analysis:
+  barriers: [FM01, FM04, FM07]
+  minimum_patients_per_class: 3
+  minimum_cohorts_for_meta: 2
+  projection_bridge_min_contexts: 10
+  projection_bridge_spearman_min: 0.70
+  permutation_n: 500
+  primary_timepoint: baseline
+  meta_tau_grid_max: 3.0
+  meta_tau_grid_n: 601
+gate:
+  minimum_independent_cohorts_same_direction: 2
+  leave_one_out_sign_stability_min: 0.80
+  direction_probability_min: 0.90
+  metadata_negative_control_margin_min: 0.05

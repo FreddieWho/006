@@ -1,0 +1,28 @@
+# 单细胞分析核心包
+scanpy
+anndata
+scvi-tools
+
+# PyTorch (CPU版本)
+torch
+torchvision
+torchaudio
+
+# 单细胞分析工具
+pynndescent
+umap-learn
+scikit-learn
+pandas
+numpy
+zarr
+tiledb
+cloudpickle
+leidenalg
+
+# 相似性搜索 (先安装CPU版本)
+faiss-cpu
+
+# 其他有用的包
+matplotlib
+seaborn
+jupyter

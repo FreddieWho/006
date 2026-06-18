@@ -1,0 +1,18 @@
+group,is_load,is_preqc,id,resource,data_type,protocal,data_format,only_normd,celltype,organ,tissue,disease,num_patient,num_cell,loc_or_mta,treatment,prior_treatment,timepoint,tp_paired,has_os_pfs,has_outcome,is_annoed,if_qc,num_perturb_target,citiation,
+imm,,,GSE236581,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE236581,scRNA/scTCR,10x,txt,F,whole,colorectum,tumor/adj/pbmc,crc,22,169samples,loc,PD1,none,pre/mid/post,paired,none,none,T,,,Cancer Cell 2024,新辅助抗PD-1单药(Pembrolizumab/Sintilimab)
+combo,,,HRA003591,https://ngdc.cncb.ac.cn/gsa-human/browse/HRA003591,scRNA/scTCR,10x,txt,F,whole,esophagus,tumor,escc,10,,loc,PD1+chemo,none,pre/post,paired,none,TRG,T,,,Nat Commun 2024,Controlled Access需机构邮箱申请
+combo,,,OMIX005710,https://ngdc.cncb.ac.cn/omix/browse/OMIX005710,scRNA,10x,txt,F,whole,esophagus,tumor,escc,22,,loc,PD1+chemo,none,pre/post,partially,none,pCR/MPR/IPR,T,,,2024,视GSA公开程度
+combo,,,GSE221561,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE221561,scRNA,10x,txt,F,whole,esophagus,tumor,escc,7,,loc,PD1+chemo/radio,none,pre/post,partially,none,TRG,T,,,2025,
+combo,,,HRA007492,https://ngdc.cncb.ac.cn/gsa-human/browse/HRA007492,scRNA/scTCR,10x,txt,F,whole,cervix,tumor,cervical,5,10samples,loc,PD1+chemo,none,pre/post,paired,none,MPR/NMPR,T,,,Cancer Res 2024,Controlled Access需机构邮箱申请
+imm,,,PRJNA932556,https://www.ncbi.nlm.nih.gov/bioproject/PRJNA932556,scRNA,10x,txt,F,whole,colorectum,tumor,crc_msi_h,6,,loc,PD1,none,pre/post,unpaired,none,S/R,T,,,BMC Med 2023,
+imm,,,GSE256326,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE256326,scRNA,10x,txt,F,whole,kidney,tumor,rmc,,15samples(9scRNA),loc,PD1+CTLA4,none,pre/post,unpaired,none,progression,T,,,-,7例naïve+2例nivolumab+ipilimumab后高进展
+imm,,,GSE314072,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314072,scRNA/scTCR,10x,txt,F,whole,kidney,tumor,rcc,,24samples,loc,none,none,pre,none,none,none,T,,,-,无PD-1/PD-L1治疗信息仅作免疫图谱参考
+combo,,,GSE289745,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE289745,ST,Visium,rds,F,whole,skin,tumor,cscc,11,,loc,PD1/PDL1,none,pre/post,partially,none,none,T,,,Nature 2025,GEO元数据缺少逐样本标注需从原文手动对应
+combo,,,GSE291246,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE291246,ST,Xenium,rds,F,whole,skin,tumor,bcc,35,,loc,PD1,none,pre/post,paired,none,clinical,T,,,PNAS 2025,原位空间平台
+combo,,,GSE235672,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE235672,ST,Visium,rds,F,whole,brain,tumor,gbm,20,,loc,PD1,none,pre/post,partially,none,R/NR,T,,,Nat Cancer 2023,
+combo,,,GSE238264,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE238264,ST,Visium,rds,F,whole,liver,tumor,hcc,7,,loc,PD1+TKI,none,pre/post,unpaired,none,patho,T,,,Genome Med 2023,
+combo,,,PRJCA039752,https://ngdc.cncb.ac.cn/gsa/browse/PRJCA039752,ST,Visium HD,rds,F,whole,esophagus,tumor,escc,4,,loc,PD1+chemo,none,pre/post,paired,none,R/NR,T,,,2024,
+combo,,,HRA007492_ST,https://ngdc.cncb.ac.cn/gsa-human/browse/HRA007492,ST,Visium,rds,F,whole,cervix,tumor,cervical,5,,loc,PD1+chemo,none,pre/post,paired,none,MPR/NMPR,T,,,Cancer Res 2024,与scRNA同研究
+combo,,,NCT02451982,-,ST,Visium FFPE,rds,F,whole,pancreatic,tumor,pdac,12,,loc,PD1+vaccine,none,pre/post,paired,none,patho,T,,,Cancer Cell 2024,需从原文获取具体GEO/SRA编号
+combo,,,GSE177043,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE177043,ST,Visium,rds,F,whole,breast,tumor,tnbc,>20,,loc,PD1,none,pre/post,paired,none,R/NR,T,,,-,经典旧队列空间数据质量高
+imm,,,HRA011002,https://ngdc.cncb.ac.cn/gsa-human/browse/HRA011002,scRNA,10x,txt,F,whole,lung,brain_mets,nsclc,,,-,loc,immunotherapy,none,-,-,-,-,T,,,Nat Commun 2026,跟踪线索尚未完全公开

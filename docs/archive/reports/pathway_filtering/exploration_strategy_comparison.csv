@@ -1,0 +1,6 @@
+strategy,initial,after_ic,after_hallmark,final,go_bp_count
+Current (L4 only),548,548,548,598,548
+L3-L5 (IC 4.0),1524,1524,1524,1574,1524
+L4-L5 (IC 4.5),1244,1151,1151,1201,1151
+L4-L6 (IC 5.0),1850,1502,1502,1552,1502
+All levels (IC 5.0),2731,2244,2244,2294,2244

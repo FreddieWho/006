@@ -1,0 +1,32 @@
+manifest_version: "v6.1"
+execution_records:
+  - step_id: "v6_1_step1_data_governance"
+    step_alias: "cohort_registry_and_metadata_master_build"
+    inputs:
+      - "docs/data_collection.csv"
+      - "mvp/outputs/patient_metadata_master.csv"
+      - "mvp/sidecars/*/sample_summary.csv"
+      - "data/processed/srt/raw/*.h5ad"
+      - "data/** (local existing assets only)"
+    outputs:
+      - "results/v6_1/step1/cohort_registry_v6_1.csv"
+      - "results/v6_1/step1/sample_metadata_master_v6_1.csv"
+      - "results/v6_1/step1/patient_metadata_master_v6_1.csv"
+      - "results/v6_1/step1/treatment_context_flags.csv"
+      - "results/v6_1/step1/dataset_role_assignment.csv"
+      - "results/v6_1/step1/data_leakage_risk_log.md"
+      - "results/v6_1/step1/missing_data_request.md"
+      - "results/v6_1/step1/step1_summary.md"
+      - "results/v6_1/step1/source_records_local.tsv"
+    major_fields:
+      - "patient_id / sample_id / timepoint_normalized / treatment_context / response_binary / response_standard"
+      - "cohort-level role assignment and exclusion reasons"
+      - "data leakage risk checks"
+    known_missing:
+      - "not_locally_ingested_cohorts=11"
+      - "unknown_response_rows=1461"
+      - "unknown_timepoint_rows=7150"
+    downstream_dependencies:
+      - "Step2 immune-state measurement (without modeling)"
+      - "Step3 strong baseline package"
+      - "Step4 module discovery and PD-1 anchor logic"

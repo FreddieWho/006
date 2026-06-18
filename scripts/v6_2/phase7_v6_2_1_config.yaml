@@ -1,0 +1,97 @@
+phase: v6.2.1_phase7
+seed: 1729
+output_dir: results/v6_2/phase7_module_measurement_and_barrier_identifiability
+
+inputs:
+  phase6_handoff: results/v6_2/phase6_module_algorithm_benchmark_strengthened/handoff/phase6_to_phase7_module_entry_manifest.yaml
+  phase6_unit_registry: results/v6_2/phase6_response_blind_module_discovery/foundation/unified_expression_unit_registry.csv
+  phase6_logcpm: results/v6_2/phase6_module_algorithm_benchmark_strengthened/inputs/P0_pseudobulk_primary.logcpm.parquet
+  sample_metadata: results/v6_2/sample_metadata_master.frozen_v0.csv
+  patient_metadata: results/v6_2/patient_metadata_master.frozen_v0.csv
+  cohort_registry: results/v6_2/cohort_registry.frozen_v0.csv
+  sample_fractions: results/v6_2/phase4b_immune_state_feature_construction/fractions/cell_state_fraction_matrix.sample_level.csv
+  patient_fractions: results/v6_2/phase4b_immune_state_feature_construction/fractions/cell_state_fraction_matrix.patient_timepoint_level.csv
+  qc_covariates: results/v6_2/phase4b_immune_state_feature_construction/qc_covariates/sample_patient_timepoint_qc_covariates.csv
+  cell_state_reliability: results/v6_2/phase4a_cell_state_harmonization/qc/cell_state_reliability_scores.csv
+  ontology: results/v6_2/phase4a_cell_state_harmonization/annotation/cell_state_ontology_v6_2.yaml
+  hallmark_gmt: data/pathway/h.all.v2025.1.Hs.symbols.gmt
+  reactome_gmt: data/pathway/c2.cp.reactome.v2025.1.Hs.symbols.gmt
+  tf_regulon: data/tf_regulon/consensus_tf_regulon_v1/saezlab_tf_regulon_consensus_v1.csv.gz
+
+measurement:
+  primary_level: mid
+  sensitivity_level: coarse
+  minimum_group_size_for_robust_z: 10
+  minimum_available_fraction: 0.5
+  minimum_states_per_sample: 2
+  qc_minimum_nonmissing_fraction: 0.6
+  precision_weight_reference_cells: 100
+  bootstrap_n_full: 100
+  bootstrap_n_smoke: 10
+  bootstrap_checkpoint_every: 10
+  route_ab_spearman_min: 0.70
+  route_ab_sign_agreement_min: 0.80
+  route_ab_top_decile_jaccard_min: 0.50
+
+measurement_gate:
+  technical_residual_abs_spearman_max: 0.20
+  minimum_independent_cohorts: 3
+  minimum_patient_timepoint_contexts: 50
+  maximum_single_cohort_fraction: 0.50
+  completeness_mainline_min: 0.80
+  completeness_block_min: 0.60
+  residual_variance_mainline_min: 0.15
+  residual_stability_mainline_min: 0.60
+  residual_stability_block_max: 0.40
+  context_variance_context_only_min: 0.50
+  qc_variance_sensitivity_min: 0.35
+  composition_lineage_dominance_min: 0.70
+
+identifiability:
+  bootstrap_n_full: 1000
+  bootstrap_n_smoke: 100
+  bootstrap_checkpoint_every: 50
+  correlation_pass_max: 0.75
+  correlation_force_merge_min: 0.90
+  vif_pass_max: 5.0
+  vif_force_merge_min: 10.0
+  condition_pass_max: 30.0
+  condition_fail_min: 100.0
+  flip_pass_max: 0.10
+  flip_fail_min: 0.35
+  rank_stability_pass_min: 0.70
+  carrier_consistency_pass_min: 0.60
+  merge_bootstrap_support_min: 0.80
+  gene_jaccard_support_min: 0.20
+  carrier_jaccard_support_min: 0.60
+  pathway_jaccard_support_min: 0.50
+
+sentinel_programs:
+  TLS_B:
+    genes: [CXCL13, CXCR5, BCL6, MS4A1, CD79A, CD74, HLA-DRA, CCL19, CCL21, LTB]
+  NEUTROPHIL_NET:
+    genes: [S100A8, S100A9, FCGR3B, CSF3R, CXCR2, FPR1, MPO, ELANE, PADI4, CTSG]
+  TUMOR_WNT_EXCLUSION:
+    genes: [CTNNB1, AXIN2, LEF1, TCF7L2, DKK1, WNT5A, MYC, CCND1]
+  CD8_PROGENITOR_EXHAUSTION:
+    genes: [TCF7, CCR7, IL7R, SLAMF6, CXCR5, LEF1, SELL, MAL]
+  CD8_TERMINAL_EXHAUSTION:
+    genes: [HAVCR2, ENTPD1, TOX, CXCL13, LAYN, PDCD1, LAG3, TIGIT, CTLA4]
+
+prohibited_tokens:
+  - response
+  - responder
+  - non_responder
+  - outcome
+  - survival
+  - progression
+  - recist
+  - mrecist
+  - trg
+  - death
+  - pfs
+  - os
+  - split
+  - train
+  - test
+  - label

@@ -1,0 +1,14 @@
+version: context_repair_v1
+output_dir: results/v6_2/context_repair_v1
+inputs:
+  raw_h5ad_dir: data/processed/srt/raw
+parquet_partitions:
+  cell: [cohort_id]
+  analysis_context: [cohort_id, normalized_timepoint]
+rules:
+  default: obs_patient_timepoint_tissue_sample_library
+  GSE123813: patient_treatment_lesion
+  GSE232240: seq_run_orig_ident_new_hash_patient_timepoint
+  GSE176021: sample_prefix_patient_unknown_tokens_preserved
+  GSE272993: patient_timepoint_tissue_14_1189_cross_arm_canonical
+  GSE200996: barcode_patient_stage_tissue_source_matrix_library

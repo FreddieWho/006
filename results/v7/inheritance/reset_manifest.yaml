@@ -1,0 +1,24 @@
+schema_version: v7-reset-1
+created_at: 2026-08-31
+status: repository_reset_complete_scientific_compute_not_run
+active_plan: docs/plan/v7/plan.md
+active_roadmap: docs/plan/v7/roadmap.md
+source_projects:
+  - path: /home/huyudi/006
+    access: local_project
+  - path: /home/huyudi/013_spatial
+    access: read_only_reference
+large_assets:
+  policy: retain_in_place_and_reference_by_manifest
+  tracked_in_git: false
+bioinf_data_index:
+  path: /home/huyudi/Infra/bioinf-data-index/BIOINF_DATA_INVENTORY.md
+  inventory_generated_utc: 2026-08-28T08:14:45.404230+00:00
+  covers_projects: [006, 013_spatial]
+  new_external_data_added_during_reset: false
+  action: verified_no_rebuild_required
+historical_scientific_results:
+  status: provenance_only_until_v7_readjudication
+v7_scientific_compute:
+  status: NOT_RUN
+next_stage: stage_1_multimodal_registry

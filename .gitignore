@@ -1,0 +1,91 @@
+# Large local data and historical result stores
+data/
+tmp/
+logs/
+mvp/
+auditpack/
+.auditpack/
+
+# Results are local by default. Only the v7 control-plane files below are tracked.
+results/**
+!results/v7/
+!results/v7/README.md
+!results/v7/STATUS.md
+!results/v7/inheritance/
+!results/v7/inheritance/asset_manifest.tsv
+!results/v7/inheritance/reset_manifest.yaml
+
+# Large scientific binaries
+*.h5ad
+*.h5
+*.hdf5
+*.rds
+*.qs
+*.RData
+*.rda
+*.parquet
+*.feather
+*.gctx
+*.mtx
+*.mtx.gz
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.bam
+*.cram
+*.sra
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.xlsx
+*.ckpt
+
+# Scratch and previous attempts
+*.staging/
+*.previous/
+scratch/
+_scratch/
+
+# Python, R and notebooks
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.Rhistory
+.Rproj.user/
+
+# Local environments and dependencies
+.env
+.venv/
+venv/
+node_modules/
+mvp/.deps/
+mvp/.venv/
+
+# Local agent, editor and code indexes
+.codegraph/
+.cursor/
+.serena/
+.codex
+.claude/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and OS files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dev-debug.log
+.DS_Store
