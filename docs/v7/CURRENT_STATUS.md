@@ -12,14 +12,14 @@ v6 已建立较可靠的数据身份、response-blind 分子程序和跨队列�
 
 ## 本次完成
 
-形成 v7 plan/roadmap，将空间从末端验证提升为主线；完成 v6 与 013 资产的初步继承审计；重组文档、临时脚本和 Git 提交边界。
+形成 v7 plan/roadmap，将空间从末端验证提升为主线；完成 v6 与 013 资产的初步继承审计；完成 Stage 1 元数据 registry：跨仓库逻辑/物理单位、患者—区块—切片交叉表、治疗/疗效完整性、重复血缘和 claim-specific role；重组文档、临时脚本和 Git 提交边界。
 
 ## 尚未完成
 
-v7 registry、共同 ontology、多平台空间 adapter、空间结构发现、临床 anchor、repair、perturbation 和 X-class 计算均为 `NOT_RUN`。当前没有 v7 新生物学结论。
+共同 ontology、多平台空间 adapter、空间结构发现、临床 anchor、repair、perturbation 和 X-class 计算均为 `NOT_RUN`。当前没有 v7 新生物学结论。
 
 已知数据缺口：当前资产尚无闭合的同患者纵向 spatial PD1+X 链。TASK02/LAMBRECHT_HCC 是纵向 scRNA，GSE238264 是 post-only spatial；所以直接空间结构重排目前 `NOT_IDENTIFIABLE`，不能由两类数据拼接替代。
 
 ## 下一步
 
-先建立跨仓库 patient/block/section registry，再审计共同 module/cell-state vocabulary，最后用少数高价值空间样本完成多平台最小回放。三项完成前不启动全量空间训练或复杂 PD1+X 模型。
+先审计共同 module/cell-state vocabulary，再用少数高价值空间样本完成多平台最小回放。Stage 1 registry 已完成；在 ontology 和空间 foundation 完成前不启动全量空间训练或复杂 PD1+X 模型。

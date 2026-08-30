@@ -22,7 +22,9 @@
 | GSE211956 | 可见 response token 的候选 | 临床关联候选 | 表达、坐标、patient crosswalk、结构语义尚未闭合 |
 | `/006` GSE238264 | HCC 7 patient，post PD1+cabozantinib，4R/3NR | HCC 治疗后空间支持 | 不能作 baseline prediction 或拆分 PD1 与 X 效应 |
 | `/006` GSE291246 | BCC Xenium；35 section，其中 17 个 h5ad PASS | 跨癌种空间结构支持 | 18 张缺 transcripts；无 response 标签，不能作 HCC 证据 |
-| `/006` Mendeley | 11 个 HCC spatial RDS object | HCC 组织结构候选 | patient/section、response、图像与 scale contract 均待闭合 |
+| `/006` Mendeley | 有效主表为 6 patient / 12 sample rows；本地 h5ad 是 scRNA（旧摘要的 11 object 口径未采用） | HCC 状态/定位 support，待重新核对空间语义 | patient/section、response、图像与 scale contract 均未闭合 |
+
+Stage 1 还把 013 的 `GSE274557`、`GSE274103`、`GSE226997`、`HEST`、`ATLAS_TABLE_S2` 和 `TENX_GENOMICS` 建成受控 source；其中 ATLAS_TABLE_S2 当前全部因 block 缺失而排除，不能计作患者证据。
 
 ## 可复用接口
 

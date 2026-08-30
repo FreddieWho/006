@@ -1,0 +1,244 @@
+{
+  "counts": {
+    "completeness": 2094,
+    "crosswalk": 1044,
+    "duplicate_lineage": 8731,
+    "logical_units": 11191,
+    "role_assignment": 184,
+    "spatial_physical_units": 1044
+  },
+  "input_files": [
+    {
+      "bytes": "29342",
+      "name": "assets",
+      "path": "/home/huyudi/013_spatial/infra/sample-registry/source_assets.tsv",
+      "sha256": "a423137d8967568aa830e91b46f39d0ac280f502fa8bfdd66d3e7fd9e0f8288a",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "18405",
+      "name": "cohort",
+      "path": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/metadata/cohort_registry.effective_v1.csv",
+      "sha256": "671f2c5948c03b58cefffb6301eb89c65eb96e2328e1eb82747deccb54cb78ad",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "5527",
+      "name": "config",
+      "path": "/home/huyudi/006/config/v7/data_source_registry.tsv",
+      "sha256": "fce4577d8da22955b4cdcfd46af9e929b6909ded12061608248a50b3d4f51b0b",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "349470",
+      "name": "context_sidecar",
+      "path": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/analysis_context_sidecar.csv",
+      "sha256": "84c68860d565d4b033252d303eb333330306e671ec48b45615be274f9c8b8174",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "472",
+      "name": "cross_sections",
+      "path": "/home/huyudi/013_spatial/infra/structure-registry/cross_section_links.tsv",
+      "sha256": "c2dcae79d4402e0f07ecefac6f90b552f3655623d480a4e1be0ea26528124ddb",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "40222",
+      "name": "duplicates",
+      "path": "/home/huyudi/013_spatial/infra/sample-registry/duplicate_groups.tsv",
+      "sha256": "2ffd0523bcf7b9a1a1340513ea0d5a9eff2916ea9596580bafb8605fc061438f",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "16630",
+      "name": "feature",
+      "path": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/metadata/dataset_role_and_feature_eligibility.effective_v1.csv",
+      "sha256": "0569f6eda95ee1497909904a0792a00153d80b2145b2c868e0b3deee511a1579",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "1817",
+      "name": "gse238_manifest",
+      "path": "/home/huyudi/006/results/v6_2/phase2_5_data_onboarding/01_metadata_freeze/spatial_sample_manifest.GSE238264.tsv",
+      "sha256": "29aadc370246867c45aebddb25de3960a87dfb2a263d4d237277a5521b077296",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "1817",
+      "name": "gse238_qc",
+      "path": "/home/huyudi/006/results/v6_2/phase2_5_data_onboarding/02_conversion_qc/spatial_sample_manifest.GSE238264.tsv",
+      "sha256": "29aadc370246867c45aebddb25de3960a87dfb2a263d4d237277a5521b077296",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "1779",
+      "name": "gse238_spot_qc",
+      "path": "/home/huyudi/006/results/v6_2/phase2_5_data_onboarding/02_conversion_qc/per_sample_spot_stats.GSE238264.tsv",
+      "sha256": "1a17f1c70eab7fac76d1e9247c5e019a5d87bc4ca3e1f4f22be15775464a2f04",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "12039",
+      "name": "gse291_manifest",
+      "path": "/home/huyudi/006/results/v6_2/phase2_5_data_onboarding/01_metadata_freeze/spatial_sample_manifest.GSE291246.tsv",
+      "sha256": "a6e5d44d74550a775fdefe26404983bf8afa3ec5f860be49883c9634a3f7ee70",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "6263",
+      "name": "gse291_qc",
+      "path": "/home/huyudi/006/results/v6_2/phase2_5_data_onboarding/02_conversion_qc/per_sample_xenium_stats.GSE291246.latest.tsv",
+      "sha256": "ffd940332302731d014201af04d7defebbf4e3be216dc608a51ae5b2f90e52dc",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "83359",
+      "name": "gt_audit",
+      "path": "/home/huyudi/013_spatial/infra/structure-registry/gt_source_audit.tsv",
+      "sha256": "54c6dc42db9af60f7f24e5007b9fc2eef8c2de63c08ee8ebbfea04b872b2720d",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "2028680",
+      "name": "identity_evidence",
+      "path": "/home/huyudi/013_spatial/infra/sample-registry/identity_evidence.tsv",
+      "sha256": "e5c46a05f2bf4edfb403a34b7aa2aa86a71e36572a109653eb661c5f93587a03",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "1444",
+      "name": "input_policy",
+      "path": "/home/huyudi/013_spatial/infra/structure-registry/input_policy.tsv",
+      "sha256": "520c0aa01430f78dfb1569fbcd6e9797f8e9ee5dc79a18280f0e4753298efa79",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "4881",
+      "name": "object_audit",
+      "path": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/object_metadata_audit.csv",
+      "sha256": "c1af40b16fc5c252496ea57f96bc090f100bfc6fd34f8af9c1a1303588aaa038",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "1095",
+      "name": "ontology",
+      "path": "/home/huyudi/013_spatial/infra/structure-registry/structure_ontology.tsv",
+      "sha256": "117a769374411ca6cc6b35a56dec3b88b13f615534733f38e97a8ecb81f02c6e",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "49405",
+      "name": "outer_splits",
+      "path": "/home/huyudi/013_spatial/infra/structure-registry/outer_splits.tsv",
+      "sha256": "ad3807002d39b4ba3f48b7fa39ec41fe17b192621ea5a7a81774b4a5fbd3e26e",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "362492",
+      "name": "patient",
+      "path": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/metadata/patient_metadata_master.effective_v1.csv",
+      "sha256": "a55f5d43e45191c8d36d55bbd4ff2a79d232ecc2834c5e3d91a4759923eb6e2c",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "218079",
+      "name": "physical",
+      "path": "/home/huyudi/013_spatial/infra/sample-registry/physical_units.tsv",
+      "sha256": "367d94e50e43c32722d1aa2e343963c6cbeb5b7f6f6f8d189d3b7de22092d219",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "52217",
+      "name": "r04_input_manifest",
+      "path": "/home/huyudi/013_spatial/infra/r04/input_manifest.json",
+      "sha256": "2ab11adc3b15deb68a14a20666cf7eb42df939db05479ff7731603b217bb1e4e",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "56059",
+      "name": "r04_restart_panel",
+      "path": "/home/huyudi/013_spatial/infra/r04/restart_stability_panel_20260831.json",
+      "sha256": "2a711cc254ba87db9f646cf468bfd1a6e3477d38519777fdf7fa2059ef40c276",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "12412",
+      "name": "raw_task",
+      "path": "/home/huyudi/004/TASK/meta_task_raw.csv",
+      "sha256": "f2068fa971e50f764314fd5b260f43457d4aacd6faec7c2035520c5417db6f1c",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "1734",
+      "name": "raw_tcr",
+      "path": "/home/huyudi/004/Component/meta_tcr.csv",
+      "sha256": "274bfe84701c2300d5b99e2d2437dad72bfdbb0c378b678170a8297a765ba037",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "19512",
+      "name": "replay",
+      "path": "/home/huyudi/013_spatial/infra/structure-registry/h5ad_replay_index.tsv",
+      "sha256": "b2855c76fe426b95cd2df0488048f2022aa3c88f8fb542d2faeb94eefae88242",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "18495",
+      "name": "response",
+      "path": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/metadata/response_label_environment.effective_v1.csv",
+      "sha256": "f5bb25dc31b067d238ba3f6cb7d1fd43c83e0653e926e9dbfcafd4d4a8571869",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "2800",
+      "name": "role_freeze",
+      "path": "/home/huyudi/013_spatial/infra/sample-registry/role_freeze.tsv",
+      "sha256": "f02c9f7a862bda345b1bb913a3d495b118ea2f0dcd41df4d38ebebe8429ff96e",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "3810950",
+      "name": "sample",
+      "path": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/metadata/sample_metadata_master.effective_v1.csv",
+      "sha256": "4b91eca9834640bfa422805e5ea1905991288a97a2aa55e3250812a970d7158a",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "2443349",
+      "name": "sample_sidecar",
+      "path": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/sample_identity_sidecar.csv",
+      "sha256": "ba06a636378fec1bf80f59cc35ca187a657e057a4e711cb2390ec91ce21e56cd",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "8513",
+      "name": "source_inventory",
+      "path": "/home/huyudi/013_spatial/infra/sample-registry/source_metadata_inventory.tsv",
+      "sha256": "12cfd2ed8cc0035b483479550fda724705702a2bae98dc3b8ba95a51b8e3b0b4",
+      "status": "READ_METADATA_ONLY"
+    },
+    {
+      "bytes": "907809",
+      "name": "structures",
+      "path": "/home/huyudi/013_spatial/infra/structure-registry/structure_instances.tsv",
+      "sha256": "166e042fd926caf2c4ef81efdd55fc1f5909d8868c91aa8ecd5f0f2be536e8aa",
+      "status": "READ_METADATA_ONLY"
+    }
+  ],
+  "output_dir": "/home/huyudi/006/results/v7/registry",
+  "output_files": [
+    "REGISTRY_REPORT.md",
+    "STAGE1_RUN_MANIFEST.json",
+    "data_role_assignment.tsv",
+    "duplicate_lineage.tsv",
+    "multimodal_logical_units.tsv",
+    "patient_block_section_crosswalk.tsv",
+    "spatial_physical_units.tsv",
+    "treatment_response_completeness.tsv"
+  ],
+  "project_root": "/home/huyudi/006",
+  "read_policy": "metadata_only_no_matrix_or_image_read",
+  "script_version": "v7-stage1-registry-1.0",
+  "spatial_root": "/home/huyudi/013_spatial"
+}

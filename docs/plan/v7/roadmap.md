@@ -2,7 +2,7 @@
 
 版本：v7.0
 日期：2026-08-31
-状态：Stage 0 完成；Stage 1 待启动；尚未运行 v7 科学计算
+状态：Stage 0、Stage 1 完成；Stage 2 待启动；尚未运行 v7 科学计算
 科学依据：`docs/plan/v7/plan.md`
 
 ---
@@ -152,7 +152,7 @@ results/v7/
 
 # Stage 1｜多模态数据注册与空间资格审计
 
-状态：**NEXT**
+状态：**COMPLETE**（2026-08-31；元数据审计完成，未运行科学模型）
 
 ## 科学问题
 
@@ -196,7 +196,7 @@ claim_id, primary_role, role_source, permitted_role
 - ST_CRC_CMS：沿用只读 role ledger，作为 internal/serial-section validation；
 - HEST/10x/STOmics：atlas/reference/压力测试，临床 metadata 不足时不进 response；
 - GSE238264：HCC 治疗后 spatial support；
-- GSE291246：BCC Xenium 支持集，不得计入 HCC；Mendeley：11 个 HCC object，metadata 核验后决定；
+- GSE291246：BCC Xenium 支持集，不得计入 HCC；Mendeley：effective metadata 为 6 个 HCC patient/12 个 sample rows，且本地 h5ad 标为 scRNA，旧 11-object 摘要须保留为冲突而不能直接继承；
 - GSE211956：response-linked candidate，需先闭合患者/表达/坐标/结构语义；
 - TASK01/TASK02 等非空间队列：临床和纵向 anchor。
 
@@ -213,6 +213,9 @@ claim_id, primary_role, role_source, permitted_role
 - `results/v7/registry/duplicate_lineage.tsv`
 - `results/v7/registry/data_role_assignment.tsv`
 - `results/v7/registry/REGISTRY_REPORT.md`
+- `results/v7/registry/STAGE1_RUN_MANIFEST.json`
+
+本次实际生成：1,670 个 `/006` 患者主表行、10,166 个样本主表行、1,002 个 `/013_spatial` physical rows（167 个 `RESOLVED_INCLUDED_CANDIDATE`）、1,044 个合并空间物理单位行、2,094 个 dataset×patient 完整性行、8,731 条重复/嵌套血缘边，以及 184 条 claim×source 角色记录。每个 config source 均有 dataset-level logical unit，角色外键闭合。Lambrecht HCC 的 25/22 旧摘要与有效主表 44/112 冲突已保留；GSE238264、GSE291246 的 post-only/无 response 边界已锁定。
 
 ## 决策点 D1
 

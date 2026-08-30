@@ -12,4 +12,4 @@
 - `perturbation/`
 - `evaluation/`
 
-当前阶段没有 v7 科学运行脚本。
+Stage 1 入口：`python scripts/v7/registry/build_stage1_registry.py`。它生成 `results/v7/registry/` 下的七张账本、报告和运行 manifest；当前仍未运行 v7 生物学模型。
