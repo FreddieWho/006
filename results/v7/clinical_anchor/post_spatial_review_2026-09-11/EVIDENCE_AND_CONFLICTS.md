@@ -1,0 +1,8 @@
+# Stage 5 证据与冲突
+
+- 原始证据定位：RUN_RECEIPT.json内输入路径/hash；实际结果表见receipt输出列表。
+- 新结果：原始GEO phenotype验证7位空间患者4R/3NR，分析5个事先定义的proxy，保留全部结果。
+- 核心限制：post-only开发支持；无基线/纵向空间，也不证明composition之外的topology增量。
+- 不确定性与负结果必须与点估计并列；不能按nominal p筛选后把开发数据当独立验证。
+- RUN_RECEIPT中的COMPUTATION_COMPLETE表示本运行的计算执行，不表示原阶段或科学主张通过。
+- 未完成任务不得改成统计否定；详细任务清单见审核主报告。

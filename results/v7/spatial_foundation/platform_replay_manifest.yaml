@@ -1,0 +1,92 @@
+schema: v7.stage3.platform_replay_manifest.v1
+status: COMPLETE
+response_blind: true
+units:
+  - unit_id: u_06354e16952f7f24
+    source_id: 006_GSE238264
+    platform: Visium
+    matrix_kind: 10x_h5
+    matrix_sha256: c09d5deb658047c6b316f07e0797f03171cb28a7513c765d3f4d7d0427e00d70
+    coordinate_sha256: dcd3a3f2ff49d6f429a8826433d955f1ea81549eb4dd0234cd94678e13107c68
+    image_usage: locator_only_not_feature
+    replay_status: PASS
+  - unit_id: u_35b207a8eaf9e7d7
+    source_id: 006_GSE238264
+    platform: Visium
+    matrix_kind: 10x_h5
+    matrix_sha256: 49c3b817280f66ece034858cba9b45c17bd81132cf8b552f04139fd20d01927f
+    coordinate_sha256: 5c5159799cff8bc64d962ae444c9bad701a3acfd47b62d565eb27c27e76fe4bb
+    image_usage: locator_only_not_feature
+    replay_status: PASS
+  - unit_id: u_aa6d6e52872d3391
+    source_id: 006_GSE291246
+    platform: Xenium
+    matrix_kind: h5ad_counts
+    matrix_sha256: c126b182a6e30330bb287530cc638dc610126616902a02e930bdfe002e772457
+    coordinate_sha256: c126b182a6e30330bb287530cc638dc610126616902a02e930bdfe002e772457
+    image_usage: locator_only_not_feature
+    replay_status: PASS
+  - unit_id: u_3fe8f2263abf3d56
+    source_id: 006_GSE291246
+    platform: Xenium
+    matrix_kind: h5ad_counts
+    matrix_sha256: 3cc1e2d41f17c6d72e37b646c6492939df5ed1ef3220a3449c8cbd6e3ba8e7c4
+    coordinate_sha256: 3cc1e2d41f17c6d72e37b646c6492939df5ed1ef3220a3449c8cbd6e3ba8e7c4
+    image_usage: locator_only_not_feature
+    replay_status: PASS
+  - unit_id: u_012abc3165bfcd1d
+    source_id: 006_GSE291246
+    platform: Xenium
+    matrix_kind: h5ad_counts
+    matrix_sha256: 9fa71be7279e9482fe20df1fe0d8f3647a29dad38f9bf2099458a6b6dbe1f521
+    coordinate_sha256: 9fa71be7279e9482fe20df1fe0d8f3647a29dad38f9bf2099458a6b6dbe1f521
+    image_usage: locator_only_not_feature
+    replay_status: PASS
+  - unit_id: u_2067c6bfa97cd05c
+    source_id: 006_GSE291246
+    platform: Xenium
+    matrix_kind: h5ad_counts
+    matrix_sha256: 87c8d1292e79015eb9c455207f16c470de2fbe7c728a0257e3e7dcafee56e17b
+    coordinate_sha256: 87c8d1292e79015eb9c455207f16c470de2fbe7c728a0257e3e7dcafee56e17b
+    image_usage: locator_only_not_feature
+    replay_status: PASS
+  - unit_id: u_ca689ffbe33ebe56
+    source_id: 006_GSE291246
+    platform: Xenium
+    matrix_kind: h5ad_counts
+    matrix_sha256: e18294255f5c23697bc16988bf801cff7669be5d2adb49380d519d813329f0bb
+    coordinate_sha256: e18294255f5c23697bc16988bf801cff7669be5d2adb49380d519d813329f0bb
+    image_usage: locator_only_not_feature
+    replay_status: PASS
+  - unit_id: u_3f30e46885153ac0
+    source_id: 013_HTAN_CRC
+    platform: Visium
+    matrix_kind: h5ad_counts
+    matrix_sha256: 84eeeb55fcc06b4d106e4ef90872d5bc082b9ad9d04ff1471e91e6b1ea7f78dc
+    coordinate_sha256: 84eeeb55fcc06b4d106e4ef90872d5bc082b9ad9d04ff1471e91e6b1ea7f78dc
+    image_usage: locator_only_not_feature
+    replay_status: PASS
+  - unit_id: u_7657a4074642a6ce
+    source_id: 013_HTAN_CRC
+    platform: Visium
+    matrix_kind: h5ad_counts
+    matrix_sha256: f5083be328d6d4a996a897565eb8cc41bb3e7f9a204fe7423c1592f920620b68
+    coordinate_sha256: f5083be328d6d4a996a897565eb8cc41bb3e7f9a204fe7423c1592f920620b68
+    image_usage: locator_only_not_feature
+    replay_status: PASS
+  - unit_id: u_2430323d543e400c
+    source_id: 013_HTAN_CRC
+    platform: Visium
+    matrix_kind: h5ad_counts
+    matrix_sha256: 8d9b26a2527544879878769f90e44ca0b0e96488a77d366f232090b556709ebe
+    coordinate_sha256: 8d9b26a2527544879878769f90e44ca0b0e96488a77d366f232090b556709ebe
+    image_usage: locator_only_not_feature
+    replay_status: PASS
+  - unit_id: u_edfbca2f7d3f32c2
+    source_id: 013_HTAN_CRC
+    platform: Visium
+    matrix_kind: h5ad_counts
+    matrix_sha256: 6a0d31acc4c457a30885bdf83413490e84f0b857a2f46f9d2b49c52a19412ff0
+    coordinate_sha256: 6a0d31acc4c457a30885bdf83413490e84f0b857a2f46f9d2b49c52a19412ff0
+    image_usage: locator_only_not_feature
+    replay_status: PASS

@@ -1,0 +1,10 @@
+schema: v7.review.readiness.v1
+stage: 5
+execution_status: COMPUTATION_COMPLETE
+scientific_stage_closure: OPEN
+canonical_run: results/v7/clinical_anchor/review_rerun_2026-09-11
+receipt: results/v7/clinical_anchor/review_rerun_2026-09-11/RUN_RECEIPT.json
+permitted_use: "临床共同患者折重算的有限探索或诊断；保留选择暴露与模态限制"
+blocking_items:
+  - "独立临床验证、空间基线桥和完整训练重拟合不确定性尚未闭合。"
+independent_review_of_new_implementation: NOT_RUN

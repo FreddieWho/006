@@ -1,0 +1,34 @@
+{
+  "clinical_response_read": false,
+  "datasets": [
+    "GSE238264",
+    "GSE291246",
+    "HTAN_VANDERBILT_CRC"
+  ],
+  "discovery_output_hash": "d7d5fd4333718573dd280b475de49ffbb07397c098585212b10767a72c139a5e",
+  "gt_isolation_pass": true,
+  "limitations": [
+    "Xenium 上游 h5ad 的 uns/response 分支已在响应盲副本中移除；原始文件未修改。",
+    "Xenium 未提供 image/micron 之外的共同图像或真实 composition；对应分析显式为未提供/不适用。",
+    "共同可测特征数量由平台面板决定，缺失成员保留为 limited_with_uncertainty，不补零。",
+    "本阶段只完成空间输入与统计底座，不回答 TLS、空间屏障、PD-1 疗效或 PD1+X 修复。"
+  ],
+  "locked_validation_gt_read": false,
+  "model_safe_manifest_sha256": "5b1ffca70b041dcde2a0f74c4b3b85ac524734c422fcaeb24ba711a8f489819c",
+  "n_common_estimable_features": 1,
+  "n_common_measurable_features": 1,
+  "n_logical_pilot_rows": 8,
+  "n_null_records": 429,
+  "n_patients": 7,
+  "n_physical_captures": 11,
+  "platforms": [
+    "Visium",
+    "Xenium"
+  ],
+  "response_blind": true,
+  "schema": "v7.stage3.D3_gate.v1",
+  "split_patient_consistency": true,
+  "stage3_status": "STAGE3_COMPLETE_WITH_LIMITATIONS",
+  "stage4_consumable": true,
+  "status": "D3_PASS_WITH_LIMITATIONS"
+}

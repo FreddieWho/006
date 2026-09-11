@@ -1,0 +1,25 @@
+{
+  "status": "COMPUTATION_COMPLETE",
+  "stage_closure": "OPEN_BARRIER_QUALIFICATION_AND_EXTERNAL_VALIDATION",
+  "features": [
+    "FM05",
+    "FM08",
+    "mechanism__apc_ifn_apm__curated_antigen_presentation",
+    "mechanism__cytotoxic_t_nk__curated_cytotoxicity",
+    "mechanism__cytotoxic_t_nk__curated_nk_cytotoxicity",
+    "mechanism__neutrophil_tan_net__sentinel_neutrophil_net",
+    "mechanism__suppressive_myeloid__curated_myeloid_suppression"
+  ],
+  "selection": "all_frozen_D2_measurable_features_no_post_or_validation_label_feature_selection",
+  "independent_review": "NOT_RUN_NEW_IMPLEMENTATION_SELF_TESTED",
+  "inputs": {
+    "results/v7/repair/review_rerun_2026-09-11/paired_displacements.tsv": "d92551e7ea9ebfb67e8b15cbf3cd14536c136f67e72fe4407c3c4658a5ae0c3d",
+    "results/v7/ontology/measurement_reliability.tsv": "4ce2a2b2afa5fa77c039a1580c403f3528c41e64a9c27c020b0b2a362097caf0"
+  },
+  "code_sha256": "bfea64db9873d2372f5ce3471f6a475866959fcd5dfa8831cb937a2ff5b476af",
+  "outputs": {
+    "training_only_direction_weights.tsv": "8f1cef9cc82c4df676d67ce7fa4f45011d574a32d9db339255f1bd4eeb5b5cc5",
+    "patient_direction_alignment.tsv": "d0cebacaeed1a5766dbccf890fe01aab08c4577aabf072233ec6a354fb199d9b",
+    "direction_permutation_results.tsv": "aa7cbddf5eb901fc80de950be3186575738c8ad8a3e06fec6a8f8a129c41966f"
+  }
+}

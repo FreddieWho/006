@@ -1,0 +1,28 @@
+stage: v7_stage7_repair_baseline
+version: v7.0.0-stage7
+status: COMPLETE_WITH_LIMITATIONS_MOLECULAR_SPATIAL_BLOCKED
+inputs:
+  response_table: results/v7/registry/treatment_response_completeness.tsv
+  patient_timepoint_scores: results/v7/ontology/scores/patient_timepoint_scores.parquet
+environments:
+  - TASK01
+  - TASK02
+timepoint_policy:
+  baseline: T0
+  targets: [T1, T2]
+feature_policy:
+  source: Stage2_39_features
+  response_selection: forbidden
+model:
+  paired_unit: patient
+  displacement: target_minus_T0
+negative_controls:
+  - response_permutation
+  - pairing_permutation
+spatial_branch:
+  observed_spatial_rewiring: NOT_IDENTIFIABLE_WITH_CURRENT_AUDITED_ASSETS
+  surrogate_inferred_architecture_rewiring: NOT_IDENTIFIABLE_WITH_CURRENT_AUDITED_ASSETS
+  response_read_for_spatial_branch: false
+parameters:
+  response_permutations: 50
+output_root: results/v7/repair

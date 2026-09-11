@@ -1,0 +1,10 @@
+schema: v7.review.readiness.v1
+stage: 5
+execution_status: COMPUTATION_COMPLETE
+scientific_stage_closure: OPEN
+canonical_run: results/v7/clinical_anchor/post_spatial_review_2026-09-11
+receipt: results/v7/clinical_anchor/post_spatial_review_2026-09-11/RUN_RECEIPT.json
+permitted_use: "治疗后空间response探索的有限探索或诊断；保留选择暴露与模态限制"
+blocking_items:
+  - "post-only开发支持；无基线/纵向空间，也不证明composition之外的topology增量。"
+independent_review_of_new_implementation: NOT_RUN

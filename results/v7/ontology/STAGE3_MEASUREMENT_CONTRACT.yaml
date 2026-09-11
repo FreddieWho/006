@@ -1,0 +1,44 @@
+contract: v7_stage3_measurement_input
+version: v7.0.0-stage2
+spatial_execution_status: NOT_RUN_PENDING_STAGE3
+D2_scope: scRNA_measurement_only
+modality_evidence_contract:
+  scRNA: feature_level_D2
+  bulkRNA: GSE207422_two_exact_pairs_descriptive_only
+  bulk_perturbation: GSE193736_repeatability_interface_only_no_directional_validation
+  spatial: pending_real_projection_in_stage3
+required_vocabulary:
+  module_dictionary: module_dictionary.tsv
+  module_membership: module_membership.tsv
+  cell_state_ontology: cell_state_ontology.tsv
+  measurement_reliability: measurement_reliability.tsv
+levels:
+- spot
+- bin
+- region
+- patient
+required_identity:
+- patient_id
+- block_id
+- section_id
+- observation_id
+- leakage_group_id
+required_measurement_fields:
+- feature_id
+- score_native
+- score_standardized
+- expected_genes
+- observed_genes
+- coverage
+- technical_status
+- D2_class
+- qc_flags
+forbidden_stage2_claims:
+- cross_modality_measurement_equivalence
+- bulk_feature_validation_from_two_pairs
+- perturbation_direction
+- spatial_barrier
+- TLS_structure
+- NET_structure
+- immune_exclusion
+- PD1_failure

@@ -1,0 +1,5 @@
+source	prohibited_columns_present_in_source	n_prohibited_source_columns	read_into_measurement	status
+GSE207422_metadata	not_loaded_usecols_Sample_Patient_Resource_only	not_read	False	PASS_COLUMN_WHITELIST
+score_outputs		0	False	PASS_PENDING_OUTPUT_AUDIT
+stage1_registry	response	1	False	PASS_DROPPED_AT_SOURCE
+stage1_roles	response_ready	1	False	PASS_DROPPED_AT_SOURCE

@@ -1,0 +1,47 @@
+schema: v7.stage2.output_manifest.v1
+stage: 2
+status: STAGE2_COMPLETE
+scope_version: plan_v7.0_2026-08-31
+D2_scope: scRNA_measurement_only
+run_manifest: results/v7/ontology/STAGE2_RUN_MANIFEST.yaml
+run_manifest_sha256: 91ae7288e2b7dbfbe0572cc76ea9ffbf23509176d9f9630540cab6399dc9b80a
+report: results/v7/ontology/ONTOLOGY_AND_MEASUREMENT_REPORT.md
+report_sha256: 2d799aa457bff075960ff57ff5eaa7e209a7bde708b76d3ec20ab69e66d18485
+tables:
+  - path: results/v7/ontology/module_dictionary.tsv
+    sha256: 1ddebdc86702cdb91ecc3c31dc0fa176468c5fe0c50ed2a292422cd0b1a3c9db
+    rows: 49
+    primary_key: feature_id
+  - path: results/v7/ontology/module_membership.tsv
+    sha256: c548806034f174edf4b0412b5fc964f9aaedb5abcec79609b5470ee78320d403
+    primary_key: feature_id+gene_symbol
+  - path: results/v7/ontology/cell_state_ontology.tsv
+    sha256: cf118a736e624e1458d5d06a0c4d6df6d1e91ea5167acf4b7a57955a42054c60
+    primary_key: cell_state_id_or_label
+  - path: results/v7/ontology/cross_modal_mapping.tsv
+    sha256: 6c649f09301f884f7f4f3c21e0c994df18557982b325c650500b47411851dc15
+    rows: 264
+    primary_key: feature_id+modality+mapping
+  - path: results/v7/ontology/measurement_reliability.tsv
+    sha256: 4ce2a2b2afa5fa77c039a1580c403f3528c41e64a9c27c020b0b2a362097caf0
+    rows: 49
+    primary_key: feature_id
+  - path: results/v7/ontology/architecture_surrogate_contract.yaml
+    sha256: 754bfa3745293e7de37466c9e62ecb66371deff1d8ecad875e189bdec16cf27f
+  - path: results/v7/ontology/STAGE3_MEASUREMENT_CONTRACT.yaml
+    sha256: fe1d019a06b27837b95d1ce31630a657da1af1ba72909e331c5d4baec8a87b52
+diagnostics_dir: results/v7/ontology/diagnostics/
+scores_dir: results/v7/ontology/scores/
+code_version:
+  git_commit: 8bdb424e9c4f3b87e813e6e9a641e3ce5dd75d57
+  pipeline: src/v7/ontology/
+  entrypoint: scripts/v7/ontology/run_stage2.py
+  note: 本节点为文档补齐；复用既有运行，不重跑全量计量。
+environment:
+  response_blind: true
+commands:
+  - PYTHONPATH=src python scripts/v7/ontology/run_stage2.py
+configs:
+  - path: config/v7/stage2.yaml
+random_seeds: []
+elapsed: NOT_APPLICABLE_REUSED_RUN

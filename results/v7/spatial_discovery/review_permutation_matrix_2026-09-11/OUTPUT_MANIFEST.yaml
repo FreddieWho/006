@@ -1,0 +1,8 @@
+schema: v7.review.output_manifest.v1
+stage: 4
+scientific_stage_closure: OPEN
+scientific_inputs_and_output_hashes: results/v7/spatial_discovery/review_permutation_matrix_2026-09-11/RUN_RECEIPT.json
+canonical_table: results/v7/spatial_discovery/review_permutation_matrix_2026-09-11/moran_999_permutations.tsv
+independent_unit: patient_outer_capture_nested
+testing_family: 39_features_within_capture
+review: docs/v7/STAGE_CLOSURE_REVIEW_2026-09-11.md

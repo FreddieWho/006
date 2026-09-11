@@ -1,0 +1,8 @@
+check	status	evidence	claim_boundary
+sealed_manifest_schema	PASS	rows=1; seal_status=sealed	GT values remain unopened
+discovery_hash_binding	PASS	d7d5fd4333718573dd280b475de49ffbb07397c098585212b10767a72c139a5e	sealed validation starts only after discovery freeze
+sealed_gt_locator_hash	PASS	locator bytes match declared sha256; annotation values not parsed	identity/hash audit only, no biological enrichment
+discovery_model_safe_firewall	PASS	model_safe_units=11; clinical/GT columns rejected by validator	response-blind discovery contract remains active
+gt_sentinel_independence	PASS	sealed_sentinels=2ff6f59c72a8,603e8ef71f70; discovery_hash_unchanged	does not evaluate structure labels or endpoint performance
+locked_validation_assets	NOT_RUN_LOCKED	GSE175540, USZ TLS and ST_CRC_CMS remain unopened	external/internal validation is not part of Stage3
+gt_value_scoring	NOT_RUN_SEALED_ONLY	no GT table values or labels parsed	Stage3 supports only a sealed-isolation claim

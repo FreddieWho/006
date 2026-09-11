@@ -18,6 +18,19 @@ results/**
 !results/v7/registry/*.tsv
 !results/v7/registry/*.md
 !results/v7/registry/*.json
+!results/v7/ontology/
+!results/v7/ontology/*.tsv
+!results/v7/ontology/*.md
+!results/v7/ontology/*.yaml
+!results/v7/ontology/diagnostics/
+!results/v7/ontology/diagnostics/*.tsv
+!results/v7/ontology/diagnostics/*.json
+!results/v7/spatial_foundation/
+!results/v7/spatial_foundation/*.tsv
+!results/v7/spatial_foundation/*.yaml
+!results/v7/spatial_foundation/*.json
+!results/v7/spatial_foundation/*.md
+!results/v7/spatial_foundation/*.txt
 
 # Large scientific binaries
 *.h5ad

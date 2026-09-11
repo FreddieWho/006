@@ -1,0 +1,28 @@
+schema: v7.stage2.next_phase_readiness.v1
+stage: 2
+status: READY_WITH_LIMITS
+permitted_inputs:
+  - artifact: results/v7/ontology/module_dictionary.tsv
+    join_key: feature_id
+    permitted_claim: 特征定义引用
+  - artifact: results/v7/ontology/measurement_reliability.tsv
+    join_key: feature_id
+    permitted_claim: 主要（measurable）/敏感性（全 39）/仅注释三类引用
+  - artifact: results/v7/ontology/cross_modal_mapping.tsv
+    join_key: feature_id+modality+mapping
+    permitted_claim: 跨模态映射引用（含 abstention）
+  - artifact: results/v7/ontology/architecture_surrogate_contract.yaml
+    join_key: NOT_APPLICABLE
+    permitted_claim: 代理接口 schema 引用（非已验证代理）
+permitted_claims:
+  - 7 measurable 作主要分子输入；39 全量作敏感性；父轴按多组件向量解释
+forbidden_inferences:
+  - scRNA D2 不得自动推广到 bulk/spatial
+  - bulk 两例精确配对不得作特征验证
+  - 扰动重复性不得作方向证据
+  - 不得静默删除失败特征
+blocking_items:
+  - id: spatial_projection_calibration
+    status: NOT_RUN_PENDING_STAGE3
+    impact: 无法校准的模态桥单列未完成
+    unblock_condition: Stage 3 按合同完成空间投影

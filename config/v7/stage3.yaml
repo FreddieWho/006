@@ -1,0 +1,98 @@
+schema: v7.stage3.spatial_control.v1
+stage: v7_stage3_spatial_foundation
+status: S3_COMPLETE_WITH_LIMITATIONS
+
+inputs:
+  stage1_spatial_registry: results/v7/registry/spatial_physical_units.tsv
+  stage1_crosswalk: results/v7/registry/patient_block_section_crosswalk.tsv
+  stage2_run_manifest: results/v7/ontology/STAGE2_RUN_MANIFEST.yaml
+  stage2_measurement_contract: results/v7/ontology/STAGE3_MEASUREMENT_CONTRACT.yaml
+  stage2_module_dictionary: results/v7/ontology/module_dictionary.tsv
+  stage2_module_membership: results/v7/ontology/module_membership.tsv
+  r04_locator_manifest: /home/huyudi/013_spatial/infra/r04/input_manifest.json
+  pilot_manifest: config/v7/stage3_pilot.tsv
+
+selection:
+  namespace: v7_stage3_pilot_patient_v1
+  technical_columns_only: true
+  fixed_captures:
+    013_HTAN_CRC:
+      - 7003_AS_1
+      - 7003_AS_2
+      - 7003_AS_3
+      - 6723_KL_1
+  stable_patient_hash_quotas:
+    006_GSE238264: 2
+    006_GSE291246: 2
+  patient_hash_payload:
+    - source_id
+    - patient_id
+  patient_unit_membership: all_technically_eligible_captures
+  technical_eligibility:
+    modality: spatial
+    counts_layer:
+      - h5ad_or_spot_matrix
+      - replay_indexed
+    record_status:
+      - EFFECTIVE_SPATIAL_MANIFEST
+      - RESOLVED_INCLUDED_CANDIDATE
+    require_nonempty_patient: true
+    require_nonempty_coordinate_system: true
+    require_positive_observation_count: true
+
+firewall:
+  registry_read_mode: explicit_usecols_allowlist
+  locator_visibility_in_selection: hash_only
+  filename_semantics_used_for_hash_ranking: false
+  clinical_fields_used_for_selection: false
+  discovery_manifest: model_safe_input_manifest.tsv
+  sealed_manifest: sealed_validation_manifest.tsv
+  prohibited_clinical_columns:
+    - response
+    - responder
+    - treatment
+    - timepoint
+    - endpoint
+    - outcome
+    - survival
+    - recist
+    - progression
+    - recurrence
+    - relapse
+  prohibited_discovery_columns:
+    - ground_truth
+    - structure_gt
+    - gt_distance
+    - gt_mask
+    - boundary_annotation
+  discovery_pipeline_may_read_sealed_manifest: false
+  sealed_validation_requires_discovery_output_hash: true
+
+model_safe_manifest:
+  counts_semantics: integer_raw_counts
+  image_usage_if_present: locator_only_not_feature
+  tissue_mask_source_if_present: non_gt_tissue_mask
+  reject_extra_columns: true
+  reject_duplicate_unit_id: true
+
+sealed_validation_manifest:
+  seal_status: sealed
+  allowed_roles:
+    - internal_validation
+    - external_validation
+    - gt_join_audit
+  reject_clinical_columns: true
+  reject_duplicate_validation_id: true
+
+resources:
+  external_spatial_root_read_only: true
+  copy_raw_matrices_or_images: false
+  minimum_free_bytes: 1319413953331
+  output_root: results/v7/spatial_foundation
+  sharded_outputs: true
+
+provenance:
+  hash_algorithm: sha256
+  canonical_json_sort_keys: true
+  canonical_json_compact_separators: true
+  selection_is_invalidated_by_source_hash_change: true

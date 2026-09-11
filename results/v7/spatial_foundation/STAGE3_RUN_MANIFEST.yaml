@@ -1,0 +1,24 @@
+schema: v7.stage3.spatial_foundation.run.v1
+status: S3_COMPLETE_WITH_LIMITATIONS
+n_logical_pilot_rows: 8
+n_physical_captures: 11
+n_patients: 7
+platforms: [Visium, Xenium]
+datasets: [GSE238264, GSE291246, HTAN_VANDERBILT_CRC]
+permutations: 99
+bootstrap_draws: 1000
+seed: 20260904
+discovery_output_hash: d7d5fd4333718573dd280b475de49ffbb07397c098585212b10767a72c139a5e
+model_safe_manifest_hash: 5b1ffca70b041dcde2a0f74c4b3b85ac524734c422fcaeb24ba711a8f489819c
+response_blind: true
+sealed_gt_read: false
+git_commit: 8bdb424e9c4f3b87e813e6e9a641e3ce5dd75d57
+git_dirty: true
+code_sha256:
+  src/v7/spatial_pipeline.py: 07b843c835d7add32621cf54ad0d48ca255b97c303ba35a53e9eab52d9752e68
+  src/v7/spatial_control.py: b375c65bdaab85bcc6d353418a845dfed13b5f4b431a2f9b2400585508774f1c
+  src/v7/spatial_projection.py: f274ee2e0a25eed8e8839cd59d9eab9a8e0cdbb40887b8f401b3e4f11b97075b
+  src/v7/spatial_stats/statistics.py: e0699db5fda31dcea104519204e70fcb05a600553f0796dfae5bd415d3228fc3
+  src/v7/spatial_stats/graph.py: 8cdf51c781caf6a61a4270bb87ad74bb2efad859b0ac299743496f0f4364e2b7
+  src/v7/spatial_io/contracts.py: 48819c41dd01ffaed0fc3062cf4f282d048543f1da1433ec1d48bbdcabbf268d
+  src/v7/spatial_io/sanitization.py: 020db9dfbe2420d4bc693d4e48e667c925d6569d1f5f7e69cd34f8e93d7d3f0e

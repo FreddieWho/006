@@ -1,0 +1,10 @@
+schema: v7.review.readiness.v1
+stage: 7
+execution_status: COMPUTATION_COMPLETE
+scientific_stage_closure: OPEN
+canonical_run: results/v7/repair/review_rerun_2026-09-11
+receipt: results/v7/repair/review_rerun_2026-09-11/RUN_RECEIPT.json
+permitted_use: "患者向量置换及细胞组成敏感性的有限探索或诊断；保留选择暴露与模态限制"
+blocking_items:
+  - "独立组合验证、可信barrier资格、空间重排仍未完成；非因果解释。"
+independent_review_of_new_implementation: NOT_RUN

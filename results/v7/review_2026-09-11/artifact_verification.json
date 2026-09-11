@@ -1,0 +1,80 @@
+{
+  "status": "ARTIFACT_CHECKS_PASS",
+  "scientific_stage_closure": "OPEN",
+  "runs": [
+    {
+      "run": "clinical_anchor/review_rerun_2026-09-11",
+      "receipt_sha256": "7f64a51790e5ffc47aefd661d5a2902adb212b981d1b32a05e5fa1e12ddc402b",
+      "outputs_verified": 14,
+      "execution_source_files_verified": 34,
+      "source_snapshot": "results/v7/clinical_anchor/review_rerun_2026-09-11/REPLAY_SOURCE.tar.gz",
+      "source_snapshot_sha256": "97488be7e5a3081011cd5d06c820447838311bbd2fba2dc98b1eeca7673d651a",
+      "five_documents_present": true
+    },
+    {
+      "run": "clinical_anchor/post_spatial_review_2026-09-11",
+      "receipt_sha256": "0ad3677d54c1e6cf1fe2086d7d9ac0ddf9e3ba360579606ea4234ed6b097d25b",
+      "outputs_verified": 3,
+      "execution_source_files_verified": 1,
+      "source_snapshot": "results/v7/clinical_anchor/post_spatial_review_2026-09-11/REPLAY_SOURCE.tar.gz",
+      "source_snapshot_sha256": "cf54419b34dfa654f76c4e4af531b5571b439053205654e25b2bd3363e56f077",
+      "five_documents_present": true
+    },
+    {
+      "run": "spatial_discovery/review_factors_2026-09-11",
+      "receipt_sha256": "baafc843022719846616086b4214b902e553eafa185367026786ee2bbc14a408",
+      "outputs_verified": 5,
+      "execution_source_files_verified": 34,
+      "source_snapshot": "results/v7/spatial_discovery/review_factors_2026-09-11/REPLAY_SOURCE.tar.gz",
+      "source_snapshot_sha256": "97488be7e5a3081011cd5d06c820447838311bbd2fba2dc98b1eeca7673d651a",
+      "five_documents_present": true
+    },
+    {
+      "run": "spatial_discovery/review_permutation_matrix_2026-09-11",
+      "receipt_sha256": "09dc70a001338631a9aa7a16380666161cc1a0eaf35c628f475fc06687959ca6",
+      "outputs_verified": 2,
+      "execution_source_files_verified": 38,
+      "source_snapshot": "results/v7/spatial_discovery/review_permutation_matrix_2026-09-11/REPLAY_SOURCE.tar.gz",
+      "source_snapshot_sha256": "653712478819fc3dbf910095c06bdbacf5ef70241e2dffddd3bbe847d99cbaba",
+      "five_documents_present": true
+    },
+    {
+      "run": "repair/review_rerun_2026-09-11",
+      "receipt_sha256": "2e4c3449e067d8de770282a3e9f2d1f4d93b5601b8c8f48f6a66a891f00bc7db",
+      "outputs_verified": 10,
+      "execution_source_files_verified": 34,
+      "source_snapshot": "results/v7/repair/review_rerun_2026-09-11/REPLAY_SOURCE.tar.gz",
+      "source_snapshot_sha256": "189886fa47fb4f52602e43aa1b2edc3ac61357ff3809397760ea6ce32bc3f822",
+      "five_documents_present": true
+    },
+    {
+      "run": "repair/direction_review_2026-09-11",
+      "receipt_sha256": "737fbc366037de906d2aca687c349c50dc73d64d5f73beac8e6bcd727cd7d75e",
+      "outputs_verified": 3,
+      "execution_source_files_verified": 1,
+      "source_snapshot": "results/v7/repair/direction_review_2026-09-11/REPLAY_SOURCE.tar.gz",
+      "source_snapshot_sha256": "d216a8ca17f0f58ca1bcf76245013dce6df5f10567dcbb8b3df3ce42543e2296",
+      "five_documents_present": true
+    },
+    {
+      "run": "perturbation/review_rerun_2026-09-11",
+      "receipt_sha256": "a3c1e9b080e2acbb930070617c798cd3fc582c8dd4e60026af6c8f2034c4a823",
+      "outputs_verified": 2,
+      "execution_source_files_verified": 1,
+      "source_snapshot": "results/v7/perturbation/review_rerun_2026-09-11/REPLAY_SOURCE.tar.gz",
+      "source_snapshot_sha256": "5bd4d0a32d82bbc5851662f45ffad579892e852a2a06d4456c016c4f5929df4b",
+      "five_documents_present": true
+    }
+  ],
+  "targeted_tests": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "27",
+    "time": "1.810",
+    "timestamp": "2026-09-11T05:14:13.151517+08:00",
+    "hostname": "wanglab-98"
+  },
+  "independent_third_party_review": "NOT_RUN_FOR_NEW_IMPLEMENTATION"
+}

@@ -1,0 +1,10 @@
+schema: v7.review.readiness.v1
+stage: 8
+execution_status: COMPUTATION_COMPLETE
+scientific_stage_closure: OPEN
+canonical_run: results/v7/perturbation/review_rerun_2026-09-11
+receipt: results/v7/perturbation/review_rerun_2026-09-11/RUN_RECEIPT.json
+permitted_use: "真实扰动条件测量对比的有限探索或诊断；保留选择暴露与模态限制"
+blocking_items:
+  - "样本replicate不自动等于独立donor；无PD1X靶点兼容链和外部验证。"
+independent_review_of_new_implementation: NOT_RUN

@@ -1,0 +1,4 @@
+patient_id	sc_sample_id	bulk_sample_id	sc_resource	bulk_resource	sc_timepoint	bulk_timepoint	match_status	bridge_role
+P05	BD_immune05	R20027161LR01	Pre-treatment biopsy	Pre_biopsy	pre_treatment	pre_treatment	exact_matched	paired
+P07	BD_immune07	R20028573LR01	Post-treatment surgery	Pre_biopsy	post_treatment	pre_treatment	timepoint_mismatch	support_only
+P08	BD_immune08	R20052328LR01	Pre-treatment biopsy	Pre_biopsy	pre_treatment	pre_treatment	exact_matched	paired

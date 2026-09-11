@@ -1,0 +1,26 @@
+{
+  "config_sha256": "baac39d7767da2d0db3aeaeba30dacdfaa4bd37f6eb7780b18b61dc65886f2ea",
+  "measurement_reliability_sha256": "4ce2a2b2afa5fa77c039a1580c403f3528c41e64a9c27c020b0b2a362097caf0",
+  "module_dictionary_sha256": "1ddebdc86702cdb91ecc3c31dc0fa176468c5fe0c50ed2a292422cd0b1a3c9db",
+  "module_membership_sha256": "c548806034f174edf4b0412b5fc964f9aaedb5abcec79609b5470ee78320d403",
+  "pilot_file_sha256": "e02dca2ca3efc39f1265e6ff2ddb064e63219af635a8d5f361aa8a49e2a8f0a5",
+  "pilot_hash": "04155d5885105523a2c2d78ff75798492e7f0419e774d1e9a2f1cabb0bc3512f",
+  "r04_manifest_file": {
+    "bytes": 52217,
+    "content_sha256": "2ab11adc3b15deb68a14a20666cf7eb42df939db05479ff7731603b217bb1e4e",
+    "exists": true,
+    "locator_sha256": "2cb8a2f97f650efb9f59c23df5c6afd38f2f6af0d46229c306b3d2a257ac3314",
+    "payload_hash": "abeaed77bb68ea0aaa1411da020790216718434c6f1b709622677b201aa17d6a",
+    "row_count": 71
+  },
+  "r04_manifest_sha256": "2ab11adc3b15deb68a14a20666cf7eb42df939db05479ff7731603b217bb1e4e",
+  "r04_payload_hash": "abeaed77bb68ea0aaa1411da020790216718434c6f1b709622677b201aa17d6a",
+  "selection_namespace": "v7_stage3_pilot_patient_v1",
+  "stage1_registry_file": {
+    "bytes": 582193,
+    "content_sha256": "851c27b8d377b7102b7a24ef5fe45c186b30ddd473a198e088404773909e6c5e",
+    "exists": true,
+    "locator_sha256": "a5b84c69278ab2c2a7dbfb4aec15a3196249cd8835cc8a38e92a86e5621cf524"
+  },
+  "stage1_registry_sha256": "851c27b8d377b7102b7a24ef5fe45c186b30ddd473a198e088404773909e6c5e"
+}

@@ -1,0 +1,27 @@
+contract: v7_architecture_surrogate
+version: v7.0.0-stage2
+stage2_status: SCHEMA_ONLY_NOT_MODEL_SELECTION
+target:
+  status: UNSELECTED_UNTIL_STAGE4
+  required_semantics: response_blind_patient_level_topology
+allowed_predictors:
+- D2_measurable_or_uncertain_module_scores
+- canonical_cell_state_fractions
+- state_specific_module_scores
+- pretreatment_covariates_available_before_outcome
+forbidden_predictors:
+- response
+- RECIST
+- survival
+- post_outcome_variable
+- dataset_id_as_predictor
+- response_proxy
+- direct_topology_derived_predictor
+- ground_truth_or_GT_derived_feature
+evaluation:
+  outer_unit: patient
+  same_patient_or_leakage_group_across_folds: false
+  dataset_holdout_required: true
+  cross_fitting_required: true
+  uncertainty_or_abstention_required: true
+  abundance_only_baseline_required: true

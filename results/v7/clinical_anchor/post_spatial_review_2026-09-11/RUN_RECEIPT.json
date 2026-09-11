@@ -1,0 +1,21 @@
+{
+  "status": "COMPUTATION_COMPLETE",
+  "n_patients": 7,
+  "n_candidates": 5,
+  "exposure": "five_predefined_candidates_frozen_before_clinical_read; development_support_only",
+  "stage_closure": "OPEN_BASELINE_LONGITUDINAL_AND_INDEPENDENT_VALIDATION",
+  "endpoint": "pathologic_response_in_inherited_manifest; GEO_phenotype_labels_verified",
+  "multiple_testing": "exploratory_five_candidates_no_significance_claim",
+  "inputs": {
+    "data/raw/ST/GEO/GSE238264/GSE238264_series_matrix.txt.gz": "1121ae40d8a9b6a5252b6809dc3b953e9f7683945bdeaa5d7cc5307e9a998c63",
+    "results/v6_2/phase2_5_data_onboarding/01_metadata_freeze/spatial_sample_manifest.GSE238264.tsv": "29aadc370246867c45aebddb25de3960a87dfb2a263d4d237277a5521b077296",
+    "results/v7/spatial_discovery/niche_primitives.tsv": "0f5210b10223ee26d289317b5b5705ec067f0c8edd76d0024c7de79acf1ef138",
+    "results/v7/spatial_discovery/response_blind_shared_architectures.tsv": "e0731a3e31e07ee15088b709c2dcb3662c63face33248b8dac7471112aecc010"
+  },
+  "code_sha256": "2df028063db3ece8eaecbbfbc54ac1a8fcc756a92502c3477551351cce81cd75",
+  "outputs": {
+    "post_treatment_spatial_response.tsv": "4378f8a98584e7d4f63c45b2fcae7420cc38ad3a3cb42967526ce414fc45e4c4",
+    "patient_identity_and_proxy.tsv": "8e1ffb4488136f6a74b0f3cf2862494717fddacabd5da351da4d9f307d8d8df4",
+    "response_source_audit.tsv": "35d7fa601b53366090c8932ae6f51c66d44433d3065eae386af312c7e7ce59c9"
+  }
+}

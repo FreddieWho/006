@@ -1,0 +1,42 @@
+stage: v7_stage4_spatial_discovery
+version: v7.0.0-stage4
+status: RUNNING_FIRST_RESPONSE_BLIND_PASS
+response_blind: true
+ground_truth_read: false
+clinical_response_read: false
+inputs:
+  stage1_registry: results/v7/registry/spatial_physical_units.tsv
+  r04_manifest: /home/huyudi/013_spatial/infra/r04/input_manifest.json
+  stage2_dictionary: results/v7/ontology/module_dictionary.tsv
+  stage2_membership: results/v7/ontology/module_membership.tsv
+  stage2_reliability: results/v7/ontology/measurement_reliability.tsv
+selection:
+  sources:
+    - 013_HTAN_CRC
+    - 006_GSE238264
+    - 006_GSE291246
+  unit: patient_outer_capture_inner
+  unknown_block_review: enabled
+graph:
+  method: section_local_knn
+  k: 6
+  weight_mode: binary
+statistics:
+  moran_permutations: 19
+  permutation_exchangeability: within_section
+  missing_gene_policy: absent_not_zero
+composition_proxy:
+  status: marker_proxy_not_cell_fraction
+  max_states: 6
+latent_field:
+  method: nonnegative_matrix_factorization_on_stage2_scores
+  k_values: [0, 2, 4, 8]
+  seeds: [20260911, 20260912]
+  sample_limit_per_capture: 1500
+forbidden_discovery_inputs:
+  - response
+  - treatment
+  - endpoint
+  - outcome
+  - sealed_ground_truth_values
+output_root: results/v7/spatial_discovery

@@ -1,0 +1,2965 @@
+[
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE115978.parquet",
+    "annotation_partition_sha256": "31fa0fe8361d0556a9971f4cbe8f42457253179ae9d707667ffd1ca485f847ee",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409089613972,
+      "size": 489632
+    },
+    "cohort_id": "GSE115978",
+    "count_layer": "counts",
+    "fingerprint_sha256": "b867147474125e6350227b46e842b303895fc47e7a996bbde80484bc65990f00",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse115978.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "a1cae4988b8250fe8d0a905f624d7c4f4f3fd0328001f2c3c3ce3d071d7425d1",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777912876965594745,
+      "size": 181482934
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE115978",
+    "identity_sidecar_sha256": "0bc9e571edf02df4ec37527613bebf4401d263bb89efc0bd77d0eddcbdbccd20",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942064545466095,
+          "path": "GSE115978__object_1.part-0000.parquet",
+          "size": 170228
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE115978::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE115978"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE123813_bcc.parquet",
+    "annotation_partition_sha256": "fca76962c88a08354bb06c15f5b48615fa35b1bd9340047ff545e879ce5eebc0",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409089613972,
+      "size": 2417032
+    },
+    "cohort_id": "GSE123813_bcc",
+    "count_layer": "X",
+    "fingerprint_sha256": "c77a19aaebb8ac96a93c29d7b265cc9c135ba8ddc28ae26f1d04556853890af9",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse123813_bcc.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "d7cd2a2ed416b458b3075a2431065474989bd2adedccb4f44a65adc4c7c4b2ad",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777825113143070379,
+      "size": 207323227
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE123813_bcc",
+    "identity_sidecar_sha256": "ec496fa619803b40ae9df5cf25d8f0dee14560aacf0f9d3951829d25084fdcdb",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942067057446899,
+          "path": "GSE123813_bcc__object_1.part-0000.parquet",
+          "size": 1043322
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE123813_bcc::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE123813"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE123813_scc.parquet",
+    "annotation_partition_sha256": "2b42e482d447d5db5001d936d7ff543fbb09f1699b5e19b30cbba18f186bd133",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409089613972,
+      "size": 1198189
+    },
+    "cohort_id": "GSE123813_scc",
+    "count_layer": "X",
+    "fingerprint_sha256": "ad4d1ea1579f1d6178c4778d53376630ee12f4306b97ddd882b778946469518b",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse123813_scc.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "57dcf8e466e868f940f6afeb56597526ab4b6cd8ee1417d1c77945d8a43c74f4",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777825200010616864,
+      "size": 100285313
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE123813_scc",
+    "identity_sidecar_sha256": "8bca28525bef74922bbf369bad3fddf975dc343b148d041797d7694068c6eaae",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942068005439667,
+          "path": "GSE123813_scc__object_1.part-0000.parquet",
+          "size": 552734
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE123813_scc::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE123813"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE140228_droplet.parquet",
+    "annotation_partition_sha256": "a6cce3f8819f10410e1bb90b3c1dd840a14f10a78f186cc35bd2e7f1104a9055",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409089613972,
+      "size": 2721945
+    },
+    "cohort_id": "GSE140228_droplet",
+    "count_layer": "X",
+    "fingerprint_sha256": "bf9eff88a630a4fd861226e1707bceb88ca193db3e3658ca18a7c366d0f2368b",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse140228_droplet.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "78ae355b38070a5514040d309a2d22033a332ce803995d2f9a764e2a74685934",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777822325245820239,
+      "size": 199391871
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE140228_droplet",
+    "identity_sidecar_sha256": "69c72a2ed0f0a3a2dc82c76395ea38f3f05f276afd577d8280b31b271d672f64",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942070793418438,
+          "path": "GSE140228_droplet__object_1.part-0000.parquet",
+          "size": 1239432
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE140228_droplet::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE140228"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE149614.parquet",
+    "annotation_partition_sha256": "96b3846cd9cc6b32741188af35ef12aecbe0075985f289bb0e50cdb980d8e29d",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409093614040,
+      "size": 3058335
+    },
+    "cohort_id": "GSE149614",
+    "count_layer": "X",
+    "fingerprint_sha256": "81d68fcfe0250f0cf70b068782161428365804ea5c8034b4746ecd3c2f5d28e9",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse149614.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "29f816811bb0823accd72a3bd73874b54e79a83229f1fa76d27707dde44ac10a",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777820142835054789,
+      "size": 328184298
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE149614",
+    "identity_sidecar_sha256": "2b32ac476fc5a9061176aafd72e1e8c2c45be0c5e45d1eded2d48f78ffa2bcdd",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942073937394565,
+          "path": "GSE149614__object_1.part-0000.parquet",
+          "size": 1349126
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE149614::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE149614"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE151530.parquet",
+    "annotation_partition_sha256": "f2977c0e48536b5d80fe73de3ec0b1136241e035c7c2cc9aa77e1be604814cbc",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409093614040,
+      "size": 2870512
+    },
+    "cohort_id": "GSE151530",
+    "count_layer": "counts",
+    "fingerprint_sha256": "c77b69575b5c98cf6fd87c1a7e1748eb929e9c511ecae3ebd56d02cd474fad9c",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse151530.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "35697251d85e85550e06519465dac491a6e99efcac294858e00742d3bbb98f9b",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1768310002606064126,
+      "size": 2265965184
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE151530",
+    "identity_sidecar_sha256": "7ec6a9af2ae962de3b45a6aee7cb4817b686af8925172fab2ae4336625b52f50",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942075801380445,
+          "path": "GSE151530__object_1.part-0000.parquet",
+          "size": 1112058
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE151530::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE151530"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE161801.parquet",
+    "annotation_partition_sha256": "29f1113a8be1ab386136d3326252aebf0c980cbe88a014b5472cb122aaf6075e",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409093614040,
+      "size": 8164958
+    },
+    "cohort_id": "GSE161801",
+    "count_layer": "X",
+    "fingerprint_sha256": "e45b9d31a79c9a004d7b2785ab0f14fa2da37ce967a22a57a4339180db32e7a3",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse161801.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "27d70a9d82ffe188bf9bdc6a3c81400e93141bee1c3436a73f6e1db6aee508a3",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777832460067234801,
+      "size": 808921154
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE161801",
+    "identity_sidecar_sha256": "16f2153f6d90bd9cc94082f51bc7404dc441865dd99dd985510fa7ee6c4874ae",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942085885304490,
+          "path": "GSE161801__object_1.part-0000.parquet",
+          "size": 1856479
+        },
+        {
+          "mtime_ns": 1783942086117302751,
+          "path": "GSE161801__object_1.part-0001.parquet",
+          "size": 1833434
+        },
+        {
+          "mtime_ns": 1783942086153302481,
+          "path": "GSE161801__object_1.part-0002.parquet",
+          "size": 273525
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE161801::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE161801"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE169246.parquet",
+    "annotation_partition_sha256": "fe5a5b9bc930d5fd1da93235efe5e499a97fc59da28db5510a6d8894e6a63ba5",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409093614040,
+      "size": 18994852
+    },
+    "cohort_id": "GSE169246",
+    "count_layer": "counts",
+    "fingerprint_sha256": "90cd1ac01a6bd52b4c9482a784938f904a69d1eb5b2f7e1d92a6f5dcbc7fb51f",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse169246.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "9d47552a1374bab7f0a1ee4ef3cfcd6d80f34756ffd3751e791d95cd1eaae1fb",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777913600981508638,
+      "size": 3082989685
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE169246",
+    "identity_sidecar_sha256": "e29bcf55d159314e297e25d86c19d6ab24f5c670468bf277dd13a91d426ad0e0",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942109581128824,
+          "path": "GSE169246__object_1.part-0000.parquet",
+          "size": 1741450
+        },
+        {
+          "mtime_ns": 1783942109837126947,
+          "path": "GSE169246__object_1.part-0001.parquet",
+          "size": 1686469
+        },
+        {
+          "mtime_ns": 1783942110053125363,
+          "path": "GSE169246__object_1.part-0002.parquet",
+          "size": 1726060
+        },
+        {
+          "mtime_ns": 1783942110317123429,
+          "path": "GSE169246__object_1.part-0003.parquet",
+          "size": 1721119
+        },
+        {
+          "mtime_ns": 1783942110569121583,
+          "path": "GSE169246__object_1.part-0004.parquet",
+          "size": 1559146
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE169246::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE169246"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE176021.parquet",
+    "annotation_partition_sha256": "c182e71e82618d352a5862209c0e90f2b1f96021e47bb4a5738ad2f77a8451c2",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409093614040,
+      "size": 27304978
+    },
+    "cohort_id": "GSE176021",
+    "count_layer": "X",
+    "fingerprint_sha256": "d8b2451303eccb849e4bc8a426a913967d2cbbaa7fee952db291ed2721dd14cb",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse176021.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "58a85f31827b1b4f9618cd4919a73778eb5afbb4a933ebae74edd5f24cbbcae4",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777905287862483479,
+      "size": 2506497727
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE176021",
+    "identity_sidecar_sha256": "8854d2badf18d6fccd948eb29cd47826c65f600e60ef358f9fbea5c95d55875d",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942146264864310,
+          "path": "GSE176021__object_1.part-0000.parquet",
+          "size": 1717870
+        },
+        {
+          "mtime_ns": 1783942146532862409,
+          "path": "GSE176021__object_1.part-0001.parquet",
+          "size": 1728188
+        },
+        {
+          "mtime_ns": 1783942146772860708,
+          "path": "GSE176021__object_1.part-0002.parquet",
+          "size": 1688376
+        },
+        {
+          "mtime_ns": 1783942146992859148,
+          "path": "GSE176021__object_1.part-0003.parquet",
+          "size": 1672577
+        },
+        {
+          "mtime_ns": 1783942147248857334,
+          "path": "GSE176021__object_1.part-0004.parquet",
+          "size": 1664964
+        },
+        {
+          "mtime_ns": 1783942147484855662,
+          "path": "GSE176021__object_1.part-0005.parquet",
+          "size": 1689447
+        },
+        {
+          "mtime_ns": 1783942147736853877,
+          "path": "GSE176021__object_1.part-0006.parquet",
+          "size": 1648550
+        },
+        {
+          "mtime_ns": 1783942147984852120,
+          "path": "GSE176021__object_1.part-0007.parquet",
+          "size": 1680319
+        },
+        {
+          "mtime_ns": 1783942148228850393,
+          "path": "GSE176021__object_1.part-0008.parquet",
+          "size": 1658263
+        },
+        {
+          "mtime_ns": 1783942148252850222,
+          "path": "GSE176021__object_1.part-0009.parquet",
+          "size": 57681
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE176021::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE176021"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE179994.parquet",
+    "annotation_partition_sha256": "5f04793360fe2397233ad7ed10d4880694e16a2ae749c3378d8d67d2385d5657",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943825162491841,
+      "size": 3583902
+    },
+    "cohort_id": "GSE179994",
+    "count_layer": "counts",
+    "fingerprint_sha256": "be72741eb07ef3961dbee5c9122654a6001583534abd019148280f62f1b2c987",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse179994.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "51a5de7d8fcfbfdc87e00a9122fc6c405c1f13b4ca7007c81efd2d91c536637a",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1775360908767109829,
+      "size": 5070602640
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE179994",
+    "identity_sidecar_sha256": "8deae7b0b1867e2be11aae3eda2655e3e7d562cb50d24356d88ed0943ed64e9f",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942155228800986,
+          "path": "GSE179994__object_1.part-0000.parquet",
+          "size": 1794299
+        },
+        {
+          "mtime_ns": 1783942155392799833,
+          "path": "GSE179994__object_1.part-0001.parquet",
+          "size": 963114
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE179994::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE179994"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE189903.parquet",
+    "annotation_partition_sha256": "d88afddf44cf57dd57643ef007c6e5a2af2f00b66b8565adb477505c3bec35c4",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409093614040,
+      "size": 4462481
+    },
+    "cohort_id": "GSE189903",
+    "count_layer": "counts",
+    "fingerprint_sha256": "19c90e8b1791b606e107d3808e31516e4721f2e65566d9ac4d2163642ed5a289",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse189903.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "51c8de8894443ba266d7aa4e575183b6b01cd1d13c2f56ee9af6edd861ea7819",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1768407722243083954,
+      "size": 2870551736
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE189903",
+    "identity_sidecar_sha256": "95af35a60f7c84aa2808e3287ed044587648173193b8014ab63b409f7a9a707a",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942158844775583,
+          "path": "GSE189903__object_1.part-0000.parquet",
+          "size": 1738919
+        },
+        {
+          "mtime_ns": 1783942158896775219,
+          "path": "GSE189903__object_1.part-0001.parquet",
+          "size": 262234
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE189903::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE189903"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE200996.parquet",
+    "annotation_partition_sha256": "a393fce09d23df17e168581d2661ce2218d0bcd86cda441efb8ecaccc1b01c01",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943807530354292,
+      "size": 6357773
+    },
+    "cohort_id": "GSE200996",
+    "count_layer": "counts",
+    "fingerprint_sha256": "4d35cc962a4a1bface6ad705764808ec739a7f5d2f2f10c336265e25ea295549",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse200996.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "5cbfa2556c9393cd5a7f9a729c5d1ab9a542f990667a63a72428b49a0805f7c9",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1775389055407285209,
+      "size": 9119880704
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE200996",
+    "identity_sidecar_sha256": "c884febed15b11fd31fec8bf1bb979d4009e1f1d2ee49f7b6b37df408283d27b",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942168608707391,
+          "path": "GSE200996__object_1.part-0000.parquet",
+          "size": 1951613
+        },
+        {
+          "mtime_ns": 1783942168876705527,
+          "path": "GSE200996__object_1.part-0001.parquet",
+          "size": 2281188
+        },
+        {
+          "mtime_ns": 1783942168944705054,
+          "path": "GSE200996__object_1.part-0002.parquet",
+          "size": 505354
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE200996::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE200996"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE205506.parquet",
+    "annotation_partition_sha256": "88e9fa41427dbddb403c6c60ab444fac6412e55b63660c053013338c208fcd28",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409093614040,
+      "size": 13795178
+    },
+    "cohort_id": "GSE205506",
+    "count_layer": "counts",
+    "fingerprint_sha256": "59e3084c0d50fbe920b7250ab0b9358488ef7c33d58d1847fd0094c9330bb8aa",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse205506.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "f50f4bb593ee656d93be6dfddb35f6615521d86e92f3f185bc8faebae57afec8",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1775054000036803879,
+      "size": 9994443728
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE205506",
+    "identity_sidecar_sha256": "35619ecc69e61c41560a79b10f2731e3fef6643071d24a823b427f83bc3e9e78",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942179492632054,
+          "path": "GSE205506__object_1.part-0000.parquet",
+          "size": 1763705
+        },
+        {
+          "mtime_ns": 1783942179764630181,
+          "path": "GSE205506__object_1.part-0001.parquet",
+          "size": 1827555
+        },
+        {
+          "mtime_ns": 1783942180056628169,
+          "path": "GSE205506__object_1.part-0002.parquet",
+          "size": 1799040
+        },
+        {
+          "mtime_ns": 1783942180128627674,
+          "path": "GSE205506__object_1.part-0003.parquet",
+          "size": 484809
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE205506::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE205506"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE206325.parquet",
+    "annotation_partition_sha256": "1cf9ff4130f8460ff4986c8e5047e61bbd415f16c16ccaf5aa280c809ae68aac",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409097614109,
+      "size": 27132562
+    },
+    "cohort_id": "GSE206325",
+    "count_layer": "counts",
+    "fingerprint_sha256": "b5d54c867ef7482aa4bda6412b3b8e92d7260be5f174613c0463c1a1f0dbe45d",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse206325.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "cae798ed30b96178449868b349b5a038f85759f606236852cdc7e6022dcbaff3",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1775308481254542835,
+      "size": 26439412309
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE206325",
+    "identity_sidecar_sha256": "809677334a945a86fcdf9bae5bf9ef45b8ab683d020fd9215a83f9a3c0bd972d",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942207280442850,
+          "path": "GSE206325__object_1.part-0000.parquet",
+          "size": 1812526
+        },
+        {
+          "mtime_ns": 1783942207552441019,
+          "path": "GSE206325__object_1.part-0001.parquet",
+          "size": 1820301
+        },
+        {
+          "mtime_ns": 1783942207816439243,
+          "path": "GSE206325__object_1.part-0002.parquet",
+          "size": 1817436
+        },
+        {
+          "mtime_ns": 1783942208064437574,
+          "path": "GSE206325__object_1.part-0003.parquet",
+          "size": 1893527
+        },
+        {
+          "mtime_ns": 1783942208324435826,
+          "path": "GSE206325__object_1.part-0004.parquet",
+          "size": 1853057
+        },
+        {
+          "mtime_ns": 1783942208600433971,
+          "path": "GSE206325__object_1.part-0005.parquet",
+          "size": 1781391
+        },
+        {
+          "mtime_ns": 1783942208844432331,
+          "path": "GSE206325__object_1.part-0006.parquet",
+          "size": 1522810
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE206325::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE206325"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE207422_sc.parquet",
+    "annotation_partition_sha256": "ff99990778604106daca6aad8cf67f20e7f9c107c459e326963838faae46066d",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409097614109,
+      "size": 3389452
+    },
+    "cohort_id": "GSE207422_sc",
+    "count_layer": "X",
+    "fingerprint_sha256": "a1590b17733e391a2bbd17428f56b1aef03fe9b2db5f83f2834f9d5749b5a78b",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse207422_sc.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "180706cd90d14f45d6971df76b2e7ccf3d662a2ad2363175ca48a5eb84bd32b2",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777826695545951686,
+      "size": 376800401
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE207422_sc",
+    "identity_sidecar_sha256": "a339ef3e686a4ad9a07eada3e20f09edc4c23868b6690c054cd503cc34b355a3",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942214584393843,
+          "path": "GSE207422_sc__object_1.part-0000.parquet",
+          "size": 1574855
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE207422_sc::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE207422_sc"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE225063.parquet",
+    "annotation_partition_sha256": "e05ae4665b61fa2436812ee7b8c6336c4a2e7654bd2eebc7d4889e81045e4703",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409097614109,
+      "size": 3369382
+    },
+    "cohort_id": "GSE225063",
+    "count_layer": "X",
+    "fingerprint_sha256": "de29a80a248bdabeeaea22dc2594a9653515837fd9333b9f73fe42d65a65beec",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse225063.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "gene_symbol",
+    "h5ad_sha256": "0105ce5bdeee09759b9ac7fec4c246ac076c1eec38392a19b6d8e017494cc1b1",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777835282515613350,
+      "size": 253276085
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE225063",
+    "identity_sidecar_sha256": "299578ffeaf8b407a9912f5b5442d2fb77872c89a190190a953659b7773d8486",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942218076370518,
+          "path": "GSE225063__object_1.part-0000.parquet",
+          "size": 1526484
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE225063::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE225063"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE232240.parquet",
+    "annotation_partition_sha256": "e959fe9c59ecb77320e8164dea2b89c37ec6042dc6bdc37d6bc816edfcd3bece",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409097614109,
+      "size": 1577507
+    },
+    "cohort_id": "GSE232240",
+    "count_layer": "X",
+    "fingerprint_sha256": "27bd70e0839e4f94fbdf9764e403c82ab35527e5527a16ee0128b776cc4918c2",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse232240.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "6c70299aa8509d908f3ab63ba5741c835219382533bef78d18f7ec56f9a79f6f",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777832872442338173,
+      "size": 110202622
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE232240",
+    "identity_sidecar_sha256": "33af27dbfc935b83fc6c40b977222c0be721a68ccc1ba2681290b0c6a3c00640",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942222736339495,
+          "path": "GSE232240__object_1.part-0000.parquet",
+          "size": 762491
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE232240::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE232240"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE235863_5pt_cd8.parquet",
+    "annotation_partition_sha256": "ca7d4b46667f89ddf07808abb793288ae8c88e3c20b694f122555411f0746d95",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409097614109,
+      "size": 5515456
+    },
+    "cohort_id": "GSE235863_5pt_cd8",
+    "count_layer": "X",
+    "fingerprint_sha256": "8842301738b014367782c3e39bdf064421cc6d83db217818cb9a3878a78326ce",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse235863_5pt_cd8.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "09b8ff31db13a5901892d3c7b9ef6272535f38f00563d6e670d756686fce10a8",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777826724293982557,
+      "size": 336501819
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE235863_5pt_cd8",
+    "identity_sidecar_sha256": "16873f3999211473408b96668bdbab15840f6847d51447935d8302e5aaeba151",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942227452308219,
+          "path": "GSE235863_5pt_cd8__object_1.part-0000.parquet",
+          "size": 2868989
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE235863_5pt_cd8::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE235863_5pt_cd8"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE235863_9pt_cd45.parquet",
+    "annotation_partition_sha256": "c2fe23cf789122ae018f5c2436b2cb30201479bf5f5bef39fc12b0e559bbaae5",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409097614109,
+      "size": 11872615
+    },
+    "cohort_id": "GSE235863_9pt_cd45",
+    "count_layer": "X",
+    "fingerprint_sha256": "e165cacf0dcef35123975ac158cf5666df86cbb2ef8b31efafc9d5b6cb1e4b2d",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse235863_9pt_cd45.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "6951a536e65d3d0aee7c9ff612157580066b5e16449bff3d220d7b68c76cfa96",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777826790078037122,
+      "size": 771270789
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE235863_9pt_cd45",
+    "identity_sidecar_sha256": "7dc53dd29933630f8496fbe0058f8d965eb035d2599d3d8633bc6d2075ab83f1",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942236668247445,
+          "path": "GSE235863_9pt_cd45__object_1.part-0000.parquet",
+          "size": 3054188
+        },
+        {
+          "mtime_ns": 1783942236976245421,
+          "path": "GSE235863_9pt_cd45__object_1.part-0001.parquet",
+          "size": 2805707
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE235863_9pt_cd45::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE235863_9pt_cd45"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE243013.parquet",
+    "annotation_partition_sha256": "3c0bba274a6c78e1b5056d148dd07b918e1606743f36dbeb6aed34633b8db0f6",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409097614109,
+      "size": 50785648
+    },
+    "cohort_id": "GSE243013",
+    "count_layer": "X",
+    "fingerprint_sha256": "2561d91ce0ae2749edf641319932a0405ccfda2c1dc0e59361e1d00d5b63fcf9",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse243013.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "4051f0672ada92dd77d5d9e0d5ab6848b75c7f454aec39ce83fc7c81ae736116",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777825785179952610,
+      "size": 4949241529
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE243013",
+    "identity_sidecar_sha256": "3c3f9edf0fc3be28b6bf85ec1893085d057f16538ca1e14783431887de1df82e",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942297219858927,
+          "path": "GSE243013__object_1.part-0000.parquet",
+          "size": 2050120
+        },
+        {
+          "mtime_ns": 1783942297451857473,
+          "path": "GSE243013__object_1.part-0001.parquet",
+          "size": 2023565
+        },
+        {
+          "mtime_ns": 1783942297727855743,
+          "path": "GSE243013__object_1.part-0002.parquet",
+          "size": 2030159
+        },
+        {
+          "mtime_ns": 1783942297975854189,
+          "path": "GSE243013__object_1.part-0003.parquet",
+          "size": 2043238
+        },
+        {
+          "mtime_ns": 1783942298227852611,
+          "path": "GSE243013__object_1.part-0004.parquet",
+          "size": 2050889
+        },
+        {
+          "mtime_ns": 1783942298479851033,
+          "path": "GSE243013__object_1.part-0005.parquet",
+          "size": 2046315
+        },
+        {
+          "mtime_ns": 1783942298743849380,
+          "path": "GSE243013__object_1.part-0006.parquet",
+          "size": 2045587
+        },
+        {
+          "mtime_ns": 1783942298999847776,
+          "path": "GSE243013__object_1.part-0007.parquet",
+          "size": 2035877
+        },
+        {
+          "mtime_ns": 1783942299255846174,
+          "path": "GSE243013__object_1.part-0008.parquet",
+          "size": 2018295
+        },
+        {
+          "mtime_ns": 1783942299483844748,
+          "path": "GSE243013__object_1.part-0009.parquet",
+          "size": 2008497
+        },
+        {
+          "mtime_ns": 1783942299743843120,
+          "path": "GSE243013__object_1.part-0010.parquet",
+          "size": 2042020
+        },
+        {
+          "mtime_ns": 1783942300003841493,
+          "path": "GSE243013__object_1.part-0011.parquet",
+          "size": 1988144
+        },
+        {
+          "mtime_ns": 1783942300155840543,
+          "path": "GSE243013__object_1.part-0012.parquet",
+          "size": 1171311
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE243013::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE243013"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE246613.parquet",
+    "annotation_partition_sha256": "65e6f297d0d88e38357467862551f5afef334ad19adab9e0b88097cd541844d8",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409097614109,
+      "size": 20459495
+    },
+    "cohort_id": "GSE246613",
+    "count_layer": "counts",
+    "fingerprint_sha256": "9e11e54030125ef01b663e13232661b6a54b135ab97a3153264b545c70259cf2",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse246613.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "aa9a64838f09c799f5d03d92145c2bcec2d628908748a0b0cbcf8c96563f47d8",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1775301988008343792,
+      "size": 24014523408
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE246613",
+    "identity_sidecar_sha256": "a651e7d7c71e932d7fa14753c4391ef9456286276fbdf55d450afd9d3bd64e6e",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942321983705110,
+          "path": "GSE246613__object_1.part-0000.parquet",
+          "size": 1753599
+        },
+        {
+          "mtime_ns": 1783942322255703436,
+          "path": "GSE246613__object_1.part-0001.parquet",
+          "size": 1751168
+        },
+        {
+          "mtime_ns": 1783942322495701960,
+          "path": "GSE246613__object_1.part-0002.parquet",
+          "size": 1785909
+        },
+        {
+          "mtime_ns": 1783942322783700188,
+          "path": "GSE246613__object_1.part-0003.parquet",
+          "size": 1853100
+        },
+        {
+          "mtime_ns": 1783942323035698638,
+          "path": "GSE246613__object_1.part-0004.parquet",
+          "size": 1959898
+        },
+        {
+          "mtime_ns": 1783942323091698293,
+          "path": "GSE246613__object_1.part-0005.parquet",
+          "size": 341552
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE246613::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE246613"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE249974.parquet",
+    "annotation_partition_sha256": "a003f544651ab49c87b4e43b353b4489f62d5d1aa98636d3207f33493c7e4809",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409097614109,
+      "size": 3095756
+    },
+    "cohort_id": "GSE249974",
+    "count_layer": "counts",
+    "fingerprint_sha256": "153ab030cb592b4a1af1035a16c072f4ff0478ff86829c9928f655d54f65b397",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse249974.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "048d9971dcd634b37cbbb2cbab4b2ef0aad2bba58bcc35fc19d34b97bf7e1bb2",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1775146392339058460,
+      "size": 2870755648
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE249974",
+    "identity_sidecar_sha256": "68fe6d53ece72d986c3ef3899d40d17ad767bd5065e6dc35fa6f3c27b52cfa96",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942326943674636,
+          "path": "GSE249974__object_1.part-0000.parquet",
+          "size": 1360447
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE249974::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE249974"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE266919.parquet",
+    "annotation_partition_sha256": "86566b5bbe978105d70a0e92a02495e27b825346c3612ab1c0f7a4fb887d2d14",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409101614176,
+      "size": 19042379
+    },
+    "cohort_id": "GSE266919",
+    "count_layer": "counts",
+    "fingerprint_sha256": "a639ca3c340d472e40816648387242e88169b49e742b8d4c7e4a7d5f833b8840",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse266919.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "4afa94a8bbc17bab88e95f5148f0aad24218d2e585c14bddaa5664cf9c4e8d7a",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1775262359560572201,
+      "size": 22446317408
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE266919",
+    "identity_sidecar_sha256": "764df83b8406b627d29021f054daa1b339ed0f64411ea703da58cab9abbc1130",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942343831571687,
+          "path": "GSE266919__object_1.part-0000.parquet",
+          "size": 1855910
+        },
+        {
+          "mtime_ns": 1783942344111569990,
+          "path": "GSE266919__object_1.part-0001.parquet",
+          "size": 1854311
+        },
+        {
+          "mtime_ns": 1783942344367568440,
+          "path": "GSE266919__object_1.part-0002.parquet",
+          "size": 1907295
+        },
+        {
+          "mtime_ns": 1783942344639566792,
+          "path": "GSE266919__object_1.part-0003.parquet",
+          "size": 1908938
+        },
+        {
+          "mtime_ns": 1783942344787565896,
+          "path": "GSE266919__object_1.part-0004.parquet",
+          "size": 1025070
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE266919::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE266919"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE272734.parquet",
+    "annotation_partition_sha256": "4f5fc054e36337f92703e2119892feb6c4b11e0a17c68f6fd657c2f7c08743cb",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783951234226628453,
+      "size": 37976291
+    },
+    "cohort_id": "GSE272734",
+    "count_layer": "X",
+    "fingerprint_sha256": "b8ef21a0296e528bf3a0c4b708dc78de894f14656de84764dfa00f9c4827d345",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse272734.h5ad",
+    "h5ad_cell_id_column": "__row_index__",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "9d925bf577c62f5edb7dc885360104b271667961e9b9a9a2937a5e4f865578c6",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777862821148457319,
+      "size": 1063056386
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE272734",
+    "identity_sidecar_sha256": "53542a7dd1f6575476ae9d17883e243c6edf3cb55547d31f8c3468fbab44885f",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942487414741935,
+          "path": "GSE272734__object_1.part-0000.parquet",
+          "size": 1358787
+        },
+        {
+          "mtime_ns": 1783942487670740521,
+          "path": "GSE272734__object_1.part-0001.parquet",
+          "size": 1299079
+        },
+        {
+          "mtime_ns": 1783942487958738931,
+          "path": "GSE272734__object_1.part-0002.parquet",
+          "size": 1299744
+        },
+        {
+          "mtime_ns": 1783942488222737474,
+          "path": "GSE272734__object_1.part-0003.parquet",
+          "size": 1299113
+        },
+        {
+          "mtime_ns": 1783942488486736016,
+          "path": "GSE272734__object_1.part-0004.parquet",
+          "size": 1299744
+        },
+        {
+          "mtime_ns": 1783942488738734625,
+          "path": "GSE272734__object_1.part-0005.parquet",
+          "size": 1298765
+        },
+        {
+          "mtime_ns": 1783942488990733234,
+          "path": "GSE272734__object_1.part-0006.parquet",
+          "size": 1298215
+        },
+        {
+          "mtime_ns": 1783942489270731689,
+          "path": "GSE272734__object_1.part-0007.parquet",
+          "size": 1297552
+        },
+        {
+          "mtime_ns": 1783942489538730211,
+          "path": "GSE272734__object_1.part-0008.parquet",
+          "size": 1298478
+        },
+        {
+          "mtime_ns": 1783942489806728733,
+          "path": "GSE272734__object_1.part-0009.parquet",
+          "size": 1298266
+        },
+        {
+          "mtime_ns": 1783942490034727474,
+          "path": "GSE272734__object_1.part-0010.parquet",
+          "size": 1280262
+        },
+        {
+          "mtime_ns": 1783942490298726019,
+          "path": "GSE272734__object_1.part-0011.parquet",
+          "size": 1279820
+        },
+        {
+          "mtime_ns": 1783942490518724806,
+          "path": "GSE272734__object_1.part-0012.parquet",
+          "size": 1320566
+        },
+        {
+          "mtime_ns": 1783942490786723328,
+          "path": "GSE272734__object_1.part-0013.parquet",
+          "size": 1281489
+        },
+        {
+          "mtime_ns": 1783942491054721851,
+          "path": "GSE272734__object_1.part-0014.parquet",
+          "size": 1281443
+        },
+        {
+          "mtime_ns": 1783942491306720463,
+          "path": "GSE272734__object_1.part-0015.parquet",
+          "size": 1281835
+        },
+        {
+          "mtime_ns": 1783942491586718919,
+          "path": "GSE272734__object_1.part-0016.parquet",
+          "size": 1281658
+        },
+        {
+          "mtime_ns": 1783942491846717487,
+          "path": "GSE272734__object_1.part-0017.parquet",
+          "size": 1281256
+        },
+        {
+          "mtime_ns": 1783942492138715879,
+          "path": "GSE272734__object_1.part-0018.parquet",
+          "size": 1281625
+        },
+        {
+          "mtime_ns": 1783942492418714337,
+          "path": "GSE272734__object_1.part-0019.parquet",
+          "size": 1281087
+        },
+        {
+          "mtime_ns": 1783942492690712839,
+          "path": "GSE272734__object_1.part-0020.parquet",
+          "size": 1281264
+        },
+        {
+          "mtime_ns": 1783942492970711297,
+          "path": "GSE272734__object_1.part-0021.parquet",
+          "size": 1281258
+        },
+        {
+          "mtime_ns": 1783942493230709866,
+          "path": "GSE272734__object_1.part-0022.parquet",
+          "size": 1281038
+        },
+        {
+          "mtime_ns": 1783942493518708281,
+          "path": "GSE272734__object_1.part-0023.parquet",
+          "size": 1280532
+        },
+        {
+          "mtime_ns": 1783942493790706784,
+          "path": "GSE272734__object_1.part-0024.parquet",
+          "size": 1308026
+        },
+        {
+          "mtime_ns": 1783942494070705243,
+          "path": "GSE272734__object_1.part-0025.parquet",
+          "size": 1284113
+        },
+        {
+          "mtime_ns": 1783942494350703703,
+          "path": "GSE272734__object_1.part-0026.parquet",
+          "size": 1284347
+        },
+        {
+          "mtime_ns": 1783942494622702207,
+          "path": "GSE272734__object_1.part-0027.parquet",
+          "size": 1284513
+        },
+        {
+          "mtime_ns": 1783942494898700688,
+          "path": "GSE272734__object_1.part-0028.parquet",
+          "size": 1284126
+        },
+        {
+          "mtime_ns": 1783942495162699237,
+          "path": "GSE272734__object_1.part-0029.parquet",
+          "size": 1283990
+        },
+        {
+          "mtime_ns": 1783942495422697808,
+          "path": "GSE272734__object_1.part-0030.parquet",
+          "size": 1281056
+        },
+        {
+          "mtime_ns": 1783942495682696379,
+          "path": "GSE272734__object_1.part-0031.parquet",
+          "size": 1280746
+        },
+        {
+          "mtime_ns": 1783942495922695059,
+          "path": "GSE272734__object_1.part-0032.parquet",
+          "size": 1281249
+        },
+        {
+          "mtime_ns": 1783942496214693454,
+          "path": "GSE272734__object_1.part-0033.parquet",
+          "size": 1281026
+        },
+        {
+          "mtime_ns": 1783942496454692135,
+          "path": "GSE272734__object_1.part-0034.parquet",
+          "size": 1280452
+        },
+        {
+          "mtime_ns": 1783942496734690598,
+          "path": "GSE272734__object_1.part-0035.parquet",
+          "size": 1286908
+        },
+        {
+          "mtime_ns": 1783942497030688971,
+          "path": "GSE272734__object_1.part-0036.parquet",
+          "size": 1295100
+        },
+        {
+          "mtime_ns": 1783942497318687390,
+          "path": "GSE272734__object_1.part-0037.parquet",
+          "size": 1281439
+        },
+        {
+          "mtime_ns": 1783942497602685830,
+          "path": "GSE272734__object_1.part-0038.parquet",
+          "size": 1282297
+        },
+        {
+          "mtime_ns": 1783942497878684315,
+          "path": "GSE272734__object_1.part-0039.parquet",
+          "size": 1282260
+        },
+        {
+          "mtime_ns": 1783942498162682755,
+          "path": "GSE272734__object_1.part-0040.parquet",
+          "size": 1281688
+        },
+        {
+          "mtime_ns": 1783942498414681373,
+          "path": "GSE272734__object_1.part-0041.parquet",
+          "size": 1281561
+        },
+        {
+          "mtime_ns": 1783942498714679726,
+          "path": "GSE272734__object_1.part-0042.parquet",
+          "size": 1281363
+        },
+        {
+          "mtime_ns": 1783942498958678388,
+          "path": "GSE272734__object_1.part-0043.parquet",
+          "size": 1281436
+        },
+        {
+          "mtime_ns": 1783942499210677005,
+          "path": "GSE272734__object_1.part-0044.parquet",
+          "size": 1281966
+        },
+        {
+          "mtime_ns": 1783942499474675558,
+          "path": "GSE272734__object_1.part-0045.parquet",
+          "size": 1282300
+        },
+        {
+          "mtime_ns": 1783942499758673999,
+          "path": "GSE272734__object_1.part-0046.parquet",
+          "size": 1281578
+        },
+        {
+          "mtime_ns": 1783942499954672925,
+          "path": "GSE272734__object_1.part-0047.parquet",
+          "size": 981261
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE272734::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE272734"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE272735.parquet",
+    "annotation_partition_sha256": "649ef319447c273e83100e4ceadeabfb8617cf0f77569ff01b7a842e0d19383d",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783950881763269106,
+      "size": 1051133
+    },
+    "cohort_id": "GSE272735",
+    "count_layer": "X",
+    "fingerprint_sha256": "eeeea3a27a003c6af3023e4a9bb0ca07114456af6e905ff3b7a69e873ecb5a8d",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse272735.h5ad",
+    "h5ad_cell_id_column": "__row_index__",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "11b780663e176035f9b37136e87a70ea450924302144073903496ff50c639b9e",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777914863355207958,
+      "size": 134421059
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE272735",
+    "identity_sidecar_sha256": "c5c955fbe32ebe2cbd2263bb05575ec7aff9dad84ca7c72a6bb35d251c574d8d",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942513274600165,
+          "path": "GSE272735__object_1.part-0000.parquet",
+          "size": 519965
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE272735::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE272735"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE272993.parquet",
+    "annotation_partition_sha256": "f9c7a6caf9adb75842db3ec0593251d3b067f0003a727fee7563b96eac9182dd",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409101614176,
+      "size": 11613030
+    },
+    "cohort_id": "GSE272993",
+    "count_layer": "X",
+    "fingerprint_sha256": "999fe350cf109984c05e874c9b580132ce27d76230e55c2456d5f773d14f543c",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse272993.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "gene_symbol",
+    "h5ad_sha256": "98fd8d697945f76f4ce26ff18442729aa2f1fecfc56ac10ce8572d6b1ff88467",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777835370291360865,
+      "size": 1037359783
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE272993",
+    "identity_sidecar_sha256": "043254480842a60359c412a0383aa99ac4fd449af894782a69d753ea00076cf3",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942538830462084,
+          "path": "GSE272993__object_1.part-0000.parquet",
+          "size": 2117731
+        },
+        {
+          "mtime_ns": 1783942539118460539,
+          "path": "GSE272993__object_1.part-0001.parquet",
+          "size": 2169380
+        },
+        {
+          "mtime_ns": 1783942539346459317,
+          "path": "GSE272993__object_1.part-0002.parquet",
+          "size": 1367121
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE272993::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE272993"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE273718.parquet",
+    "annotation_partition_sha256": "5608ef2b9ea7e557589c90747435097484b9a23f459146a908c261c70ba4aebd",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783950883775265826,
+      "size": 1151208
+    },
+    "cohort_id": "GSE273718",
+    "count_layer": "X",
+    "fingerprint_sha256": "03b6c4354dabf57a15135db3b0dd3a1d4fea51637c99cdf7f81104dcaad2cc7d",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse273718.h5ad",
+    "h5ad_cell_id_column": "__row_index__",
+    "h5ad_gene_column": "gene_symbol",
+    "h5ad_sha256": "654c6195b5da24f94abd4efb032ece4120e38846c5d33bb21734f6e06d64606a",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777914880071127703,
+      "size": 133725073
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE273718",
+    "identity_sidecar_sha256": "88624f6b478b154266be9c7589692a5447e793263a6671de848e68b7b7cc36e5",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942541102449902,
+          "path": "GSE273718__object_1.part-0000.parquet",
+          "size": 600956
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE273718::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE273718"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE284205.parquet",
+    "annotation_partition_sha256": "9fdc3706f3e16e8731e83c45d4084d69780675b25070245b53a079e964a841c8",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409101614176,
+      "size": 706395
+    },
+    "cohort_id": "GSE284205",
+    "count_layer": "counts",
+    "fingerprint_sha256": "7c63cfbb9827c76efd48ef18ef995db5a8f4fa4eb2355e272fe4ce993d723b4d",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse284205.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "edf522707858501f5f7f010666b6c9c3c1184ad51e680ab2fcc2c31de80599fe",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1775231892373328435,
+      "size": 438796328
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE284205",
+    "identity_sidecar_sha256": "b616c31c8e7833700474241972641caee00876d9015784bf7356ba96012f1caa",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942541594447267,
+          "path": "GSE284205__object_1.part-0000.parquet",
+          "size": 280853
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE284205::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE284205"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE286827.parquet",
+    "annotation_partition_sha256": "c246f9f83d9c758ffecf5fd279ff048739dda79d8ac10407aa9ad930be4f9fc9",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409101614176,
+      "size": 13032503
+    },
+    "cohort_id": "GSE286827",
+    "count_layer": "counts",
+    "fingerprint_sha256": "240bdebc526a5218f0df3635b2cbeead9ea4eba39b7d1a01f076a98377d401ec",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse286827.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "4318d0595a953c6012f6e3a2aac58f845d6cf15f0b3ab4305f6d38c8d2d0e95d",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1775240467611102229,
+      "size": 12613137200
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE286827",
+    "identity_sidecar_sha256": "c4bcec1e26b8f536922015c1a335984c2004723355f4580d69438be92f559070",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942550818397976,
+          "path": "GSE286827__object_1.part-0000.parquet",
+          "size": 1810450
+        },
+        {
+          "mtime_ns": 1783942551066396653,
+          "path": "GSE286827__object_1.part-0001.parquet",
+          "size": 1747137
+        },
+        {
+          "mtime_ns": 1783942551330395248,
+          "path": "GSE286827__object_1.part-0002.parquet",
+          "size": 1743102
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE286827::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE286827"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE288199.parquet",
+    "annotation_partition_sha256": "b17c7f4bed7629afc14b11a5b92c08a56fd5df8fc0866fd62c50019ec6c8b55c",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409101614176,
+      "size": 13129799
+    },
+    "cohort_id": "GSE288199",
+    "count_layer": "X",
+    "fingerprint_sha256": "bf0b14f569ca58f90629e347ef3dfb8a359d1b2838eaaa676e9abd51500a72b2",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse288199.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "8d79b2b776b17b39ae7f9055fa60196dc1d2516a368d1f444381872b0d956684",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777821158848789977,
+      "size": 1700554532
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE288199",
+    "identity_sidecar_sha256": "ef8ea39b744cbfee4c1885f49a3f6eb6c0c9d1f62f0f5b71211585dd3972c3d2",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942563530330445,
+          "path": "GSE288199__object_1.part-0000.parquet",
+          "size": 1722435
+        },
+        {
+          "mtime_ns": 1783942563814328941,
+          "path": "GSE288199__object_1.part-0001.parquet",
+          "size": 1693691
+        },
+        {
+          "mtime_ns": 1783942564066327607,
+          "path": "GSE288199__object_1.part-0002.parquet",
+          "size": 1680289
+        },
+        {
+          "mtime_ns": 1783942564314326294,
+          "path": "GSE288199__object_1.part-0003.parquet",
+          "size": 1700377
+        },
+        {
+          "mtime_ns": 1783942564386325913,
+          "path": "GSE288199__object_1.part-0004.parquet",
+          "size": 509460
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE288199::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE288199"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=GSE301741.parquet",
+    "annotation_partition_sha256": "8db87f64bd80eb3ac2332ee8bed6fdf6eec04af460b6ba97e9cf038aaec3249c",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409101614176,
+      "size": 5258416
+    },
+    "cohort_id": "GSE301741",
+    "count_layer": "counts",
+    "fingerprint_sha256": "d4c7c89cd3ba2f55d2c20920999d03dab878ebb7051753d6130a98a614b38544",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/gse301741.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "8cfdf39a85151e85b73c6a4979690f5a5c95bfb9a155807b8e695562b4d769a8",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1782741273515865242,
+      "size": 1803562291
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=GSE301741",
+    "identity_sidecar_sha256": "5fee3f600bba4e2789657d89db11db5bef62b027ccb6e89b4e8e8e3ed96f9ccc",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942575698266225,
+          "path": "GSE301741__object_1.part-0000.parquet",
+          "size": 1363218
+        },
+        {
+          "mtime_ns": 1783942575938264962,
+          "path": "GSE301741__object_1.part-0001.parquet",
+          "size": 1359139
+        },
+        {
+          "mtime_ns": 1783942575986264709,
+          "path": "GSE301741__object_1.part-0002.parquet",
+          "size": 170814
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "GSE301741::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "GSE301741"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=lambrecht_hcc.parquet",
+    "annotation_partition_sha256": "55418e059607d1b081cc9c4caa785b31649ea201a17c558868f6b4cfed70006d",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409105614244,
+      "size": 11449957
+    },
+    "cohort_id": "LAMBRECHT_HCC",
+    "count_layer": "counts",
+    "fingerprint_sha256": "36ad9d3165d0917d312f67124ad7127d0df040765edbda9ba06b3b55056a1af9",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/lambrecht_hcc.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "5be8ca699b1e371724d5ea1c6cb92dd05094b609ae1c82994a27b84bbab175b8",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1775375702127667040,
+      "size": 7891017248
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=LAMBRECHT_HCC",
+    "identity_sidecar_sha256": "2b091625806491ea32d296894e3489d7ea836a63a46087b1a8ba04a94e8cdc9e",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942604894113762,
+          "path": "lambrecht_hcc__object_1.part-0000.parquet",
+          "size": 1832799
+        },
+        {
+          "mtime_ns": 1783942605178112290,
+          "path": "lambrecht_hcc__object_1.part-0001.parquet",
+          "size": 1838337
+        },
+        {
+          "mtime_ns": 1783942605378111254,
+          "path": "lambrecht_hcc__object_1.part-0002.parquet",
+          "size": 1309319
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "lambrecht_hcc::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "LAMBRECHT_HCC"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=PRJCA001063.parquet",
+    "annotation_partition_sha256": "14b99de3f52c9dd9d286fe0626061c19272a196efd507ff7b0321f82b990f1c7",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409101614176,
+      "size": 2808493
+    },
+    "cohort_id": "PRJCA001063",
+    "count_layer": "counts",
+    "fingerprint_sha256": "01c6907dae06ce0a1e0208101fe10185c0ced4ca4e9fa8963f550d7c0747acf8",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/prjca001063.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "11dd1bbcb138bb99b77efac19ad9c1416ed61e8349b7534af8688241013086f5",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1775244058059470843,
+      "size": 3389320176
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=PRJCA001063",
+    "identity_sidecar_sha256": "d560c57effde511ef676e757b6068ffe6247ebc00ac58e373db7cfff3ae2c73b",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942629505986945,
+          "path": "PRJCA001063__object_1.part-0000.parquet",
+          "size": 1136394
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "PRJCA001063::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "PRJCA001063"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=TASK01.parquet",
+    "annotation_partition_sha256": "513b00ff03f32c368b50e9edd27582be58d3f9fbca1d3abea2d7123f221dc106",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409101614176,
+      "size": 24356899
+    },
+    "cohort_id": "TASK01",
+    "count_layer": "counts",
+    "fingerprint_sha256": "f305e6b587b57f0af5339b43a146fedaba022876a26982dbc1c5a68084d1bbda",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/task01.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "a9233bd5e7db66d636d44120fbf083b1c2f5d73947de32fcf48f923b536ad910",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1775395119818395636,
+      "size": 24653860520
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=TASK01",
+    "identity_sidecar_sha256": "4958ea154cfc844c24613413afb2b36a2b9fdbcc0c7bc41d7dc720ebf308a318",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942667265795242,
+          "path": "TASK01__object_1.part-0000.parquet",
+          "size": 1735519
+        },
+        {
+          "mtime_ns": 1783942667517793973,
+          "path": "TASK01__object_1.part-0001.parquet",
+          "size": 1290107
+        },
+        {
+          "mtime_ns": 1783942667825792423,
+          "path": "TASK01__object_1.part-0002.parquet",
+          "size": 1241353
+        },
+        {
+          "mtime_ns": 1783942668085791116,
+          "path": "TASK01__object_1.part-0003.parquet",
+          "size": 1241297
+        },
+        {
+          "mtime_ns": 1783942668361789728,
+          "path": "TASK01__object_1.part-0004.parquet",
+          "size": 1241759
+        },
+        {
+          "mtime_ns": 1783942668645788299,
+          "path": "TASK01__object_1.part-0005.parquet",
+          "size": 1242551
+        },
+        {
+          "mtime_ns": 1783942668945786790,
+          "path": "TASK01__object_1.part-0006.parquet",
+          "size": 1242751
+        },
+        {
+          "mtime_ns": 1783942669153785744,
+          "path": "TASK01__object_1.part-0007.parquet",
+          "size": 1242969
+        },
+        {
+          "mtime_ns": 1783942669401784497,
+          "path": "TASK01__object_1.part-0008.parquet",
+          "size": 1484820
+        },
+        {
+          "mtime_ns": 1783942669685783069,
+          "path": "TASK01__object_1.part-0009.parquet",
+          "size": 1708623
+        },
+        {
+          "mtime_ns": 1783942669937781802,
+          "path": "TASK01__object_1.part-0010.parquet",
+          "size": 1652877
+        },
+        {
+          "mtime_ns": 1783942670229780335,
+          "path": "TASK01__object_1.part-0011.parquet",
+          "size": 1714707
+        },
+        {
+          "mtime_ns": 1783942670309779933,
+          "path": "TASK01__object_1.part-0012.parquet",
+          "size": 525076
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "TASK01::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "TASK01"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=TASK02.parquet",
+    "annotation_partition_sha256": "1073bbf451f1112598325d9816b7f30a84c9a223e47fe39929b3b4d44b965337",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409105614244,
+      "size": 33585994
+    },
+    "cohort_id": "TASK02",
+    "count_layer": "counts",
+    "fingerprint_sha256": "42f14fd09176b752f9bd9c0bce62f7ba77d1c01e4745fe7add8cff0101f9311a",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/task02.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "c15f84b3c26b37c557a3be3b1405213f4799290654b5c429e7caf02c2977b07d",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1775398722150739149,
+      "size": 52268236808
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=TASK02",
+    "identity_sidecar_sha256": "70cda55a5db1ae91a49a71bbc0b6647c4c20719813e0b43f4c65847339614544",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942701109626184,
+          "path": "TASK02__object_1.part-0000.parquet",
+          "size": 1610020
+        },
+        {
+          "mtime_ns": 1783942701361624935,
+          "path": "TASK02__object_1.part-0001.parquet",
+          "size": 1646559
+        },
+        {
+          "mtime_ns": 1783942701601623745,
+          "path": "TASK02__object_1.part-0002.parquet",
+          "size": 1638174
+        },
+        {
+          "mtime_ns": 1783942701849622517,
+          "path": "TASK02__object_1.part-0003.parquet",
+          "size": 1607663
+        },
+        {
+          "mtime_ns": 1783942702117621188,
+          "path": "TASK02__object_1.part-0004.parquet",
+          "size": 1635730
+        },
+        {
+          "mtime_ns": 1783942702393619821,
+          "path": "TASK02__object_1.part-0005.parquet",
+          "size": 1641252
+        },
+        {
+          "mtime_ns": 1783942702649618552,
+          "path": "TASK02__object_1.part-0006.parquet",
+          "size": 1633876
+        },
+        {
+          "mtime_ns": 1783942702901617304,
+          "path": "TASK02__object_1.part-0007.parquet",
+          "size": 1612660
+        },
+        {
+          "mtime_ns": 1783942703101616312,
+          "path": "TASK02__object_1.part-0008.parquet",
+          "size": 1326868
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "TASK02::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "TASK02"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=bi_2021_rcc.parquet",
+    "annotation_partition_sha256": "b973471770b5f0b4efe13b562fd47ca24918870634b68872d140ee4ef65343e0",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943840958611215,
+      "size": 1168132
+    },
+    "cohort_id": "bi_2021_rcc",
+    "count_layer": "counts",
+    "fingerprint_sha256": "5e6678d709538e9976357019efb75f4b5174bcc10a6c0e5fd7c984b986fa58be",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/bi2021rcc.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "6c1daea552cb1a524313c97a1dcffb34ae6490ed10472dd3b92d86e6218252b1",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1768308326536491224,
+      "size": 1076442040
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=bi_2021_rcc",
+    "identity_sidecar_sha256": "28f199083652b363f37e907daee88625b4438fb68b7cd7efd5828d1632519c40",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942064125469309,
+          "path": "bi_2021_rcc__object_1.part-0000.parquet",
+          "size": 812944
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "bi_2021_rcc::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "bi_2021_rcc"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=krishna_2021_rcc.parquet",
+    "annotation_partition_sha256": "86d6e9b57469f3c8befc476b18ed7256ee608b45a465238678b71057be4949e1",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409105614244,
+      "size": 5865678
+    },
+    "cohort_id": "krishna_2021_rcc",
+    "count_layer": "X",
+    "fingerprint_sha256": "058df15b14ad4f53ddea8319526ca82dd4957cd51e08325b94bc1d070eff90a2",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/krishna_2021_rcc.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "33f321e930b06bee75095732c2be70593a139f084a3939958128542662a9df90",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777862249730705838,
+      "size": 590317033
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=krishna_2021_rcc",
+    "identity_sidecar_sha256": "939793b43f52104b60eeddcbde904721667ff773e638865bb8ebc0c78556cf58",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942585666213917,
+          "path": "krishna_2021_rcc__object_1.part-0000.parquet",
+          "size": 1723787
+        },
+        {
+          "mtime_ns": 1783942585874212828,
+          "path": "krishna_2021_rcc__object_1.part-0001.parquet",
+          "size": 1206174
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "krishna_2021_rcc::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "krishna_2021_rcc"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=lambrecht_brca_cohort1_cells.parquet",
+    "annotation_partition_sha256": "fdd83f722f5979d020eb4b90365f51b0219bcff0b72524d9859afa2b0ef125b4",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409105614244,
+      "size": 7110691
+    },
+    "cohort_id": "lambrecht_brca_cohort1_cells",
+    "count_layer": "X",
+    "fingerprint_sha256": "2d623e6d85a804fc80fcf4ed5b96254d72d4266309eac32b487ff0cce4789a00",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/lambrecht_brca_cohort1_cells.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "beef5ee36e190d237f226d9526140b8e00f2771d2c9927c7c3eb9dffead558e6",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777863350342264538,
+      "size": 736263126
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=lambrecht_brca_cohort1_cells",
+    "identity_sidecar_sha256": "b6ced4398cdc13b502f19a5f9be3ca18720f82da35b9b5e7082c2c0f89ee575b",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942592362178929,
+          "path": "lambrecht_brca_cohort1_cells__object_1.part-0000.parquet",
+          "size": 1788553
+        },
+        {
+          "mtime_ns": 1783942592590177740,
+          "path": "lambrecht_brca_cohort1_cells__object_1.part-0001.parquet",
+          "size": 1422757
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "lambrecht_brca_cohort1_cells::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "LAMBRECHT_BRCA"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=lambrecht_brca_cohort1_dc.parquet",
+    "annotation_partition_sha256": "8b710fb44a96b831de2ea06b8db2a84ba4779fb4fc3dafc1cf7ca1ec13e63ddd",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409105614244,
+      "size": 201040
+    },
+    "cohort_id": "lambrecht_brca_cohort1_dc",
+    "count_layer": "X",
+    "fingerprint_sha256": "b158a590064bea90fb40256677c51f78c4998323b19f8436fc49c589c2b1fa80",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/lambrecht_brca_cohort1_dc.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "135a13660acce7cc5672717ade8e1657ef3fffcb50bf4a3857fd65ffc8fc6c04",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777863385838120665,
+      "size": 12846277
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=lambrecht_brca_cohort1_dc",
+    "identity_sidecar_sha256": "25e15e6e4be4415e55ac85a947bf28d18d450c2e4404ef3ec3326f4e4a575ed6",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942593002175591,
+          "path": "lambrecht_brca_cohort1_dc__object_1.part-0000.parquet",
+          "size": 81333
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "lambrecht_brca_cohort1_dc::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "LAMBRECHT_BRCA"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=lambrecht_brca_cohort1_myeloid.parquet",
+    "annotation_partition_sha256": "279001d87cecffc4e1bcd0d4648217f52c29ddccf382bb3110920ebf6cbb43d5",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409105614244,
+      "size": 537616
+    },
+    "cohort_id": "lambrecht_brca_cohort1_myeloid",
+    "count_layer": "X",
+    "fingerprint_sha256": "f816ea336eeb64c5aaeaf44dfad600ea3ac525400b5b312a3d3bda3cb063e0cf",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/lambrecht_brca_cohort1_myeloid.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "088e5877591dc1a61edf1313a9da8b83199ee5cfbd260a6a45f2b30e1054b780",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777863384726125165,
+      "size": 48070895
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=lambrecht_brca_cohort1_myeloid",
+    "identity_sidecar_sha256": "85ca1919759755f6f2d3d3e6f2bfc82a95c2e6f30049aa1fb6d0eb7a1f116bd2",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942593358173735,
+          "path": "lambrecht_brca_cohort1_myeloid__object_1.part-0000.parquet",
+          "size": 232427
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "lambrecht_brca_cohort1_myeloid::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "LAMBRECHT_BRCA"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=lambrecht_brca_cohort1_tcell.parquet",
+    "annotation_partition_sha256": "930237384d66eb99f3fcf84251b3a20a63d8ea13076d312c01ea5ef336e87898",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409105614244,
+      "size": 2435214
+    },
+    "cohort_id": "lambrecht_brca_cohort1_tcell",
+    "count_layer": "X",
+    "fingerprint_sha256": "03fdb8070f3276085edbcd4faefac2d639d2323e268b0750de7a769101074db9",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/lambrecht_brca_cohort1_tcell.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "967881b89efde9634ea4c4abed3287ab9e28ca57aacebf12f3584bf9c426f256",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777863380458142443,
+      "size": 174181569
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=lambrecht_brca_cohort1_tcell",
+    "identity_sidecar_sha256": "813ef8411e55197e46f72af2d2e997ea6485db81a4ce1156718dfe62f2847ca0",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942595338163416,
+          "path": "lambrecht_brca_cohort1_tcell__object_1.part-0000.parquet",
+          "size": 1080089
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "lambrecht_brca_cohort1_tcell::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "LAMBRECHT_BRCA"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=lambrecht_brca_cohort2_cells.parquet",
+    "annotation_partition_sha256": "e890e78bafa11558de707842a054d4311dbab531add6006e027baea98b3773e2",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409105614244,
+      "size": 2248126
+    },
+    "cohort_id": "lambrecht_brca_cohort2_cells",
+    "count_layer": "X",
+    "fingerprint_sha256": "b6834c2d95ff0452733c27f047bbba6b9b70943ffff40eab142419ff33e9fd0e",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/lambrecht_brca_cohort2_cells.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "2c22fa7edc04b2e13e97ea426f8694df800f279ba9ce06a10d8ad1d4adb73a55",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777863365942201253,
+      "size": 179076733
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=lambrecht_brca_cohort2_cells",
+    "identity_sidecar_sha256": "7e1625e61e17006ffc6067eba3a0da797953eb8551a648554bfd454e01c0545c",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942597278153317,
+          "path": "lambrecht_brca_cohort2_cells__object_1.part-0000.parquet",
+          "size": 982698
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "lambrecht_brca_cohort2_cells::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "LAMBRECHT_BRCA"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=lambrecht_hnscc.parquet",
+    "annotation_partition_sha256": "1aba44a6312b890e9be008751c3d9441984002d0baa920c9862a945c949f228d",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943409105614244,
+      "size": 18170397
+    },
+    "cohort_id": "lambrecht_hnscc",
+    "count_layer": "X",
+    "fingerprint_sha256": "b00debe132ca4ad4d7eeb439e3b79f34c6964c8d146136dfa59d3362a34bb362",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/lambrecht_hnscc.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "f39427155cdfdcd430e0f930b7f78ed9bc9ecf113bbdfdf08264c530ad003f5b",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1777862348826308145,
+      "size": 1271733420
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=lambrecht_hnscc",
+    "identity_sidecar_sha256": "dcd1807e10e9992d9ab5b25e6a6ce5e6a7208f4ca994e37d2e20a5d22e74c9a3",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942622338023722,
+          "path": "lambrecht_hnscc__object_1.part-0000.parquet",
+          "size": 1708979
+        },
+        {
+          "mtime_ns": 1783942622554022613,
+          "path": "lambrecht_hnscc__object_1.part-0001.parquet",
+          "size": 1818080
+        },
+        {
+          "mtime_ns": 1783942622790021400,
+          "path": "lambrecht_hnscc__object_1.part-0002.parquet",
+          "size": 1804220
+        },
+        {
+          "mtime_ns": 1783942623058020022,
+          "path": "lambrecht_hnscc__object_1.part-0003.parquet",
+          "size": 1795741
+        },
+        {
+          "mtime_ns": 1783942623270018934,
+          "path": "lambrecht_hnscc__object_1.part-0004.parquet",
+          "size": 1495952
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "lambrecht_hnscc::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "lambrecht_hnscc"
+  },
+  {
+    "annotation_partition": "/home/huyudi/006/results/v6_2/phase4a_cell_state_harmonization_repair_v1/handoff/cell_state_annotation_master.parquet/cohort_id=mendeley_skrx2fz79n.parquet",
+    "annotation_partition_sha256": "f5631f98453b1b3f7839dd02cfdc76a2aebcd00b834ed243257896928c01326a",
+    "annotation_partition_state": {
+      "kind": "file",
+      "mtime_ns": 1783943836742579701,
+      "size": 2128066
+    },
+    "cohort_id": "mendeley_skrx2fz79n",
+    "count_layer": "counts",
+    "fingerprint_sha256": "dcfc01e631d3a48ebd426a9eb3cae8acf36c55d98c9f6a0632d83d00de7c82bb",
+    "h5ad": "/home/huyudi/006/data/processed/srt/raw/mendeley_skrx2fz79n.h5ad",
+    "h5ad_cell_id_column": "",
+    "h5ad_gene_column": "",
+    "h5ad_sha256": "30582f75f9a959d89dbfdb231b48992ff06a68533032a7287fe2cd05c783a631",
+    "h5ad_state": {
+      "kind": "file",
+      "mtime_ns": 1775293744417865034,
+      "size": 2736461992
+    },
+    "hash_provenance": {
+      "annotation_partition": "reused_previous_hash_stat_verified",
+      "h5ad": "reused_previous_hash_stat_verified",
+      "identity_sidecar": "reused_previous_hash_stat_verified"
+    },
+    "identity_sidecar": "/home/huyudi/006/results/v6_2/data_interface_repair_v1/cell_identity.parquet/cohort_id=mendeley_skrx2fz79n",
+    "identity_sidecar_sha256": "46a7ce307b20a11eaffaa138962dd8dbc54dd4508ff5f56df6f436a7eb87e133",
+    "identity_sidecar_state": {
+      "files": [
+        {
+          "mtime_ns": 1783942626973999921,
+          "path": "mendeley_skrx2fz79n__object_1.part-0000.parquet",
+          "size": 1604060
+        }
+      ],
+      "kind": "directory"
+    },
+    "object_id": "mendeley_skrx2fz79n::object_1",
+    "semantic_context": {
+      "algorithm_contract": "v7_count_pseudobulk_identity_bound_v2",
+      "gene_mapping_sha256": {
+        "gencode_gene_map": "321e065d58317efff748e01e6683ec72f3008d2b80fcb3d44c8fdfb5229ad275",
+        "org_hs_gene_map": "87ba2b954fe614655b3ac02de2a60f5765540757f9b67a3f7b2738451d405250"
+      },
+      "primary_levels": [
+        "coarse",
+        "mid"
+      ],
+      "stage_version": "v7.0.0-stage2"
+    },
+    "study_family": "mendeley_skrx2fz79n"
+  }
+]

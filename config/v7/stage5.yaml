@@ -1,0 +1,35 @@
+stage: v7_stage5_clinical_anchor
+version: v7.0.0-stage5
+status: RUNNING_PATIENT_LEVEL_BASELINE
+response_read: true
+spatial_architecture_read: false
+inputs:
+  response_table: results/v7/registry/treatment_response_completeness.tsv
+  patient_timepoint_scores: results/v7/ontology/scores/patient_timepoint_scores.parquet
+  expression_unit_scores: results/v7/ontology/scores/expression_unit_scores.parquet
+  measurement_reliability: results/v7/ontology/measurement_reliability.tsv
+datasets:
+  - TASK01
+  - TASK02
+  - LAMBRECHT_HCC
+  - GSE301741
+  - GSE286827
+pre_timepoint_policy:
+  primary: [T0, baseline, pre, pretreatment, pre_treatment]
+  ambiguous: contains_pre_with_on_treatment_or_post
+feature_policy:
+  primary: D2_measurable_intersection_with_patient_scores
+  sensitivity: all_39_stage2_features
+  composition: top_12_coarse_states_by_response_blind_cell_count
+model:
+  estimator: balanced_l2_logistic_regression
+  outer_unit: patient
+  folds: min(5, class_minimum)
+  imputation: training_fold_median_with_missing_indicator
+  bootstrap_draws: 1000
+negative_control:
+  response_permutations: 50
+paired_displacement:
+  status: descriptive_only
+  causal_claim: forbidden
+output_root: results/v7/clinical_anchor

@@ -1,0 +1,10 @@
+schema: v7.review.readiness.v1
+stage: 7
+execution_status: COMPUTATION_COMPLETE
+scientific_stage_closure: OPEN
+canonical_run: results/v7/repair/direction_review_2026-09-11
+receipt: results/v7/repair/direction_review_2026-09-11/RUN_RECEIPT.json
+permitted_use: "训练内分子方向与cross-fit评估的有限探索或诊断；保留选择暴露与模态限制"
+blocking_items:
+  - "基线分子区分能力弱，结果是敏感性分析；不能称已验证repair。"
+independent_review_of_new_implementation: NOT_RUN

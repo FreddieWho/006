@@ -1,0 +1,22 @@
+{
+  "config_sha256": "ad5a8b77ec7655356c83a21c2ad79134d586066c15a8a1e930151eebfda6c835",
+  "molecular_branch": "COMPLETE_WITH_LIMITATIONS",
+  "n_paired_patients": 47,
+  "n_paired_patients_by_environment": {
+    "TASK01": 24,
+    "TASK02": 23
+  },
+  "n_paired_rows": 3432,
+  "patient_scores_sha256": "692753167fc23f72287fc2510d0b2812785d5bc36b1b606739152f9464308b89",
+  "response_permutations": 199,
+  "response_read": true,
+  "response_table_sha256": "86c68dba4572db2fea55fc9c19138c5855a790bddced7dc21f684b0edefe3adf",
+  "schema": "v7.stage7.repair_analysis.run.v1",
+  "spatial_branch": "NOT_IDENTIFIABLE_WITH_CURRENT_AUDITED_ASSETS",
+  "spatial_response_read": false,
+  "status": "S7_MOLECULAR_COMPLETE_SPATIAL_BLOCKED",
+  "target_timepoints": [
+    "T1",
+    "T2"
+  ]
+}

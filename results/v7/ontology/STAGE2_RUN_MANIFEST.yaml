@@ -1,0 +1,171 @@
+stage: v7_stage2_ontology_and_measurement
+version: v7.0.0-stage2
+status: STAGE2_COMPLETE
+response_blind: true
+spatial_execution_status: NOT_RUN_PENDING_STAGE3
+D2_scope: scRNA_measurement_only
+modality_evidence_scope:
+  scRNA: feature_level_D2
+  bulkRNA: paired_descriptive_only_two_exact_pairs
+  bulk_perturbation: repeatability_interface_only_no_directional_validation
+  spatial: pending_stage3
+validation:
+  status: VALID
+  n_objects: 44
+  n_shards: 88
+  n_score_rows: 1281891
+  n_features: 49
+  n_reliability_rows: 49
+  legacy_compatibility: true
+  technical_panel_cohorts: 3
+D2_counts:
+  joint_representation_with_uncertainty: 41
+  measurable: 8
+raw_object_hash_manifest: diagnostics/raw_object_input_hashes.json
+outputs:
+- path: /home/huyudi/006/results/v7/ontology/ONTOLOGY_AND_MEASUREMENT_REPORT.md
+  bytes: 3506
+  sha256: 2d799aa457bff075960ff57ff5eaa7e209a7bde708b76d3ec20ab69e66d18485
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/STAGE3_MEASUREMENT_CONTRACT.yaml
+  bytes: 1102
+  sha256: fe1d019a06b27837b95d1ce31630a657da1af1ba72909e331c5d4baec8a87b52
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/architecture_surrogate_contract.yaml
+  bytes: 813
+  sha256: 754bfa3745293e7de37466c9e62ecb66371deff1d8ecad875e189bdec16cf27f
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/cache/family_state_gene_profile_observed.npz
+  bytes: 2187951
+  sha256: 91956d331918865e6dd79149afad342849907dcf60b336e27fe2e5438661e7b0
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/cache/family_state_gene_profile_symbols.json
+  bytes: 1550519
+  sha256: d58c570ab0f017dcf08eb2d90ff61c322ac8cde34bf7c46feb5c83be4f63de5d
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/cell_state_label_mapping.tsv
+  bytes: 864638
+  sha256: d23ee1a6942980d1f519d4e89d483c2b8a5a59902bd7d716af6de256b34efa9e
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/cell_state_ontology.tsv
+  bytes: 17124
+  sha256: cf118a736e624e1458d5d06a0c4d6df6d1e91ea5167acf4b7a57955a42054c60
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/cohort_family_map.tsv
+  bytes: 3331
+  sha256: 3558a7bf41648ff6b27a16f08f2c59e934407a0562443fecd2e0e755eeee99cf
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/cross_modal_mapping.tsv
+  bytes: 64722
+  sha256: 6c649f09301f884f7f4f3c21e0c994df18557982b325c650500b47411851dc15
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/diagnostics/aggregation_audit.tsv
+  bytes: 225135
+  sha256: 77a77371548b49f0bfeeb3ee7f325c0edd9015799c0c65d0e7ac9c320a3e0408
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/diagnostics/ambient_observed_profile.tsv
+  bytes: 7711
+  sha256: bf62edb50d498bbf70c38eefeef7a2c54e0a6f7e83528e799971bcef4e058ba8
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/diagnostics/carrier_dependency.tsv
+  bytes: 4148
+  sha256: 22f83b199496421dc680855cdf4cb7b66ee5e065d696d320ac0bc5e1085bb954
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/diagnostics/cell_level_technical_panel.tsv
+  bytes: 55878
+  sha256: 53c74d9949925ab0f69f0e63f1c8005c9fbef712325276265fe57d113ceb8630
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/diagnostics/confounding_diagnostics.tsv
+  bytes: 11242
+  sha256: 8bff041d505a27ca9100fc863a988d270d6e2a47f91887c75db60489903435bb
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/diagnostics/gse193736_repeatability.tsv
+  bytes: 6412
+  sha256: 93aad96db2f40131517791d6bd48fb940a45a9a3c874f219102e3a198b804109
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/diagnostics/gse207422_pair_vector_diagnostics.tsv
+  bytes: 626
+  sha256: 09cf12e0414a77f5529b2e3b93631717508da2d9c801040fc6c002bc55876c1a
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/diagnostics/gse207422_paired_feature_diagnostics.tsv
+  bytes: 5733
+  sha256: 861dc48c2e78ad02fd1473bbe5be99a37e57ef2d5b76c466f1d32bbca52900dd
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/diagnostics/gse207422_paired_scores.tsv
+  bytes: 33655
+  sha256: e3999b3bd3c8f5efa75e5e1b7948b58190c75315449560b3a817623b6d10a0e3
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/diagnostics/input_audit.tsv
+  bytes: 4494
+  sha256: d05b9e88789662aa7f7a277b1b55debd430bbc2976dc480957d0f6769cd26626
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/diagnostics/leakage_preflight.tsv
+  bytes: 369
+  sha256: 1e2d4857094987d32714048ec8123ee4c8e4147831d66875698245d3c73ad792
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/diagnostics/leave_study_family_out.tsv
+  bytes: 114428
+  sha256: a07a740cd3923bfe7470a1b99e638626e0018e099c37e6705119c53560284d99
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/diagnostics/legacy_fm_compatibility.tsv
+  bytes: 1623
+  sha256: 33e9f32e6b6f5b0ad419d07cc69ef7445777748486bd32c2942be36de60b4846
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/diagnostics/matched_expression_null_replicates.tsv
+  bytes: 1548816
+  sha256: dee2d27e4b78d535daa67e3617a4054aa8d2f47a3a827c9f3f6e4d6fa420e12b
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/diagnostics/matched_expression_null_summary.tsv
+  bytes: 13750
+  sha256: e827411b067143040e2fc27c3c6508e9ef4ab98d1d0a7ecf8f8b82afd1f369e5
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/diagnostics/method_agreement.tsv
+  bytes: 4005
+  sha256: a64eb2d521e22efc39c9bfb8163749406905e07c8ead51485dcc615a26b9c1d0
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/diagnostics/raw_object_input_hashes.json
+  bytes: 112744
+  sha256: 82899da15710514d8917aa56ab4fc9822b309d799d583fd966da92f44bb9fca5
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/gene_mapping_audit.tsv
+  bytes: 9794227
+  sha256: bea66018ea6bf188afeb6140464bd381a83de400b172cf14e25e446b70e1b673
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/gse193736_perturbation_design.tsv
+  bytes: 843
+  sha256: 96ce9532403012833cd7c79a6c59597c55aea2da17a291b1df896b3051d02881
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/gse207422_patient_timepoint_crosswalk.tsv
+  bytes: 465
+  sha256: d1420aaf26a09441568c85125938dfc23c53f89550b700f7b5eed7f4a5b0ecd7
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/measurement_reliability.tsv
+  bytes: 40889
+  sha256: 4ce2a2b2afa5fa77c039a1580c403f3528c41e64a9c27c020b0b2a362097caf0
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/module_dictionary.tsv
+  bytes: 21096
+  sha256: 1ddebdc86702cdb91ecc3c31dc0fa176468c5fe0c50ed2a292422cd0b1a3c9db
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/module_membership.tsv
+  bytes: 3431166
+  sha256: c548806034f174edf4b0412b5fc964f9aaedb5abcec79609b5470ee78320d403
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/scores/expression_unit_scores.parquet
+  bytes: 41949334
+  sha256: 8a05dddf0b2d6e7a90809d2d00863ebb6fa9fd9dfe2442aad55bbad7e9af17c0
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/scores/patient_timepoint_scores.parquet
+  bytes: 5224826
+  sha256: 692753167fc23f72287fc2510d0b2812785d5bc36b1b606739152f9464308b89
+  exists: true
+- path: /home/huyudi/006/results/v7/ontology/selection_exposure.tsv
+  bytes: 7581
+  sha256: 0455630d3819d29bda8be034f2830f6c7a2cdb8a7d3f18fd51ab6319608ea61d
+  exists: true
+prohibitions:
+- response_guided_vocabulary
+- legacy_FM_retraining
+- missing_gene_as_zero
+- spatial_barrier_claim
+- PD1_failure_claim

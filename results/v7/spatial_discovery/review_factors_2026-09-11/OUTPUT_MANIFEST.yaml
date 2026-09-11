@@ -1,0 +1,12 @@
+schema: v7.review.output_manifest.v1
+stage: 4
+canonical_run: results/v7/spatial_discovery/review_factors_2026-09-11
+scientific_stage_closure: OPEN
+scientific_inputs_and_output_hashes: results/v7/spatial_discovery/review_factors_2026-09-11/RUN_RECEIPT.json
+review: docs/v7/STAGE_CLOSURE_REVIEW_2026-09-11.md
+entry_documents:
+  - results/v7/spatial_discovery/review_factors_2026-09-11/PHASE_SUMMARY.md
+  - results/v7/spatial_discovery/review_factors_2026-09-11/DECISION_LOG.md
+  - results/v7/spatial_discovery/review_factors_2026-09-11/EVIDENCE_AND_CONFLICTS.md
+  - results/v7/spatial_discovery/review_factors_2026-09-11/NEXT_PHASE_READINESS.yaml
+provenance_note: "源代码在后续优化中可变化；对照receipt的运行时hash及保留的source_at_start归档，不能以当前HEAD替代运行代码。"

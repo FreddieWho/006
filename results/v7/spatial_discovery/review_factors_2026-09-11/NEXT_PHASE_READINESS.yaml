@@ -1,0 +1,10 @@
+schema: v7.review.readiness.v1
+stage: 4
+execution_status: COMPUTATION_COMPLETE
+scientific_stage_closure: OPEN
+canonical_run: results/v7/spatial_discovery/review_factors_2026-09-11
+receipt: results/v7/spatial_discovery/review_factors_2026-09-11/RUN_RECEIPT.json
+permitted_use: "空间模块低秩留出比较的有限探索或诊断；保留选择暴露与模态限制"
+blocking_items:
+  - "这检验模块向量可压缩性；不等于开放空间场、独立GT验证或topology增量。"
+independent_review_of_new_implementation: NOT_RUN

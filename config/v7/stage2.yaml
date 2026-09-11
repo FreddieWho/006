@@ -1,0 +1,66 @@
+stage: v7_stage2_ontology_and_measurement
+version: v7.0.0-stage2
+seed: 20260831
+
+inputs:
+  stage1_registry: ../../results/v7/registry/multimodal_logical_units.tsv
+  stage1_roles: ../../results/v7/registry/data_role_assignment.tsv
+  stage1_crosswalk: ../../results/v7/registry/patient_block_section_crosswalk.tsv
+  v6_projection_config: ../../results/v6_2/data_interface_repair_v1/configs/frozen_projection_v1.yaml
+  legacy_handoff: ../../results/v6_2/phase6_measurement_foundation_repair_v1/handoff/phase6_to_phase7_module_entry_manifest.yaml
+  legacy_membership: ../../results/v6_2/phase6_module_algorithm_benchmark_strengthened/consensus/module_membership.frozen_v1.csv
+  legacy_dictionary: ../../results/v6_2/phase6_module_algorithm_benchmark_strengthened/consensus/module_dictionary.frozen_v1.csv
+  legacy_score_reference: ../../results/v6_2/phase6_measurement_foundation_repair_v1/frozen_module_score_matrix.parquet
+  cell_state_ontology: ../../results/v6_2/phase4a_cell_state_harmonization/annotation/cell_state_ontology_v6_2.yaml
+  original_label_mapping: ../../results/v6_2/phase4a_cell_state_harmonization/annotation/original_to_harmonized_label_map.csv
+  marker_coarse_shadow: ../../results/v6_2/phase4a_cell_state_harmonization/annotation/marker_based_coarse_annotation.csv.gz
+  marker_mid_shadow: ../../results/v6_2/phase4a_cell_state_harmonization/annotation/marker_based_mid_annotation.csv.gz
+  marker_fine_shadow: ../../results/v6_2/phase4a_cell_state_harmonization/annotation/marker_based_fine_candidate_annotation.csv.gz
+  curated_signature_registry: ../../results/v6_1/step2/step2_v6_1_0505_0319/08_signature_pathway_tf/signature_pathway_tf_feature_v1_tf_rescue_v1/signature_registry_v6_1.csv
+  hallmark_gmt: ../../data/pathway/h.all.v2025.1.Hs.symbols.gmt
+  reactome_gmt: ../../data/pathway/c2.cp.reactome.v2025.1.Hs.symbols.gmt
+  sentinel_config: ../../scripts/v6_2/phase7_v6_2_1_config.yaml
+  gencode_gene_map: ../../data/ref/ensembl_to_symbol_gencode_v49.csv
+  org_hs_gene_map: ../../results/v6_2/data_interface_repair_v1/gene_reference/ensembl_to_symbol_org_hs_eg_db.csv
+  gse207422_bulk_expression: ../../data/combo/GSE207422/GSE207422_NSCLC_bulk_RNAseq_log2TPM.txt.gz
+  gse207422_bulk_metadata: ../../data/combo/GSE207422/GSE207422_NSCLC_bulk_RNAseq_metadata.xlsx
+  gse207422_sc_metadata: ../../data/combo/GSE207422/GSE207422_NSCLC_scRNAseq_metadata.xlsx
+  gse193736_bulk_counts: ../../data/perturb_seq/GSE193736/GSE193736_bulkRNAseq_counts.csv.gz
+
+output_root: ../../results/v7/ontology
+
+execution:
+  required_count_compatible_objects: 44
+  chunk_size: 50000
+  workers: 4
+  null_replicates: 100
+  bootstrap_replicates: 1000
+  primary_levels: [coarse, mid]
+  cell_level_technical_panel: [TASK01, GSE207422_sc, GSE301741]
+  full_cell_score_export: false
+
+study_family_overrides:
+  GSE123813_bcc: GSE123813
+  GSE123813_scc: GSE123813
+  GSE140228_droplet: GSE140228
+  lambrecht_brca_cohort1_cells: LAMBRECHT_BRCA
+  lambrecht_brca_cohort1_dc: LAMBRECHT_BRCA
+  lambrecht_brca_cohort1_myeloid: LAMBRECHT_BRCA
+  lambrecht_brca_cohort1_tcell: LAMBRECHT_BRCA
+  lambrecht_brca_cohort2_cells: LAMBRECHT_BRCA
+
+prohibited_tokens:
+  - response
+  - responder
+  - recist
+  - survival
+  - outcome
+  - relapse
+  - progression
+  - pfs
+  - os
+
+spatial_contract:
+  execution_status: NOT_RUN_PENDING_STAGE3
+  levels: [spot, bin, region]
+  allowed_stage2_use: schema_and_post_freeze_gene_coverage_only

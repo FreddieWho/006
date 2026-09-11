@@ -1,0 +1,9 @@
+schema: v7.review.readiness.v1
+stage: 4
+execution_status: COMPUTATION_COMPLETE
+scientific_stage_closure: OPEN
+permitted_use: within_capture_spatial_autocorrelation_diagnostic
+blocking_items:
+  - full_topology_increment_against_valid_independent_target
+  - patient_level_inference_and_independent_structure_validation
+independent_review_of_new_implementation: NOT_RUN

@@ -1,0 +1,39 @@
+{
+  "baseline_policy": "training_fold_prevalence",
+  "bootstrap_draws": 1000,
+  "datasets": [
+    "GSE286827",
+    "GSE301741",
+    "LAMBRECHT_HCC",
+    "TASK01",
+    "TASK02"
+  ],
+  "environment_policy": "dataset_x_treatment_x_endpoint",
+  "expression_scores_sha256": "8a05dddf0b2d6e7a90809d2d00863ebb6fa9fd9dfe2442aad55bbad7e9af17c0",
+  "feature_sets": {
+    "abundance_all": 39,
+    "abundance_primary": 7,
+    "composition": 10,
+    "joint_all": 53,
+    "joint_primary": 21,
+    "qc": 4
+  },
+  "fold_policy": "shared_patient_folds_across_models",
+  "n_patients": 125,
+  "n_patients_by_dataset": {
+    "GSE286827": 28,
+    "GSE301741": 11,
+    "LAMBRECHT_HCC": 38,
+    "TASK01": 25,
+    "TASK02": 23
+  },
+  "paired_spatial_rewiring_status": "NOT_IDENTIFIABLE_WITH_CURRENT_AUDITED_ASSETS",
+  "patient_scores_sha256": "692753167fc23f72287fc2510d0b2812785d5bc36b1b606739152f9464308b89",
+  "reliability_sha256": "4ce2a2b2afa5fa77c039a1580c403f3528c41e64a9c27c020b0b2a362097caf0",
+  "response_permutations": 199,
+  "response_read": true,
+  "response_table_sha256": "86c68dba4572db2fea55fc9c19138c5855a790bddced7dc21f684b0edefe3adf",
+  "schema": "v7.stage5.clinical_baseline.run.v1",
+  "spatial_architecture_read": false,
+  "status": "S5_BASELINE_COMPLETE_WITH_LIMITATIONS"
+}

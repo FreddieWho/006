@@ -1,0 +1,16 @@
+{
+  "status": "COMPUTATION_COMPLETE",
+  "n_samples": 24,
+  "n_contrasts": 156,
+  "stage_closure": "OPEN_PD1X_TARGET_LINK_EXTERNAL_VALIDATION",
+  "multiple_testing": "no_feature_significance_claim_or_selection_from_nominal_p",
+  "raw_input_sha256": "0ff85625334f53e6a5e4314e209709d0037c066066f9d8b1d56dba441c471d96",
+  "score_input_sha256": "8a05dddf0b2d6e7a90809d2d00863ebb6fa9fd9dfe2442aad55bbad7e9af17c0",
+  "design_sha256": "96ce9532403012833cd7c79a6c59597c55aea2da17a291b1df896b3051d02881",
+  "code_sha256": "1da87167461e4aa45c415170c2ffc8e0566e6b03464a1b1a0ba81e02d2516efc",
+  "elapsed_seconds": 0.7624921798706055,
+  "outputs": {
+    "context_direction_matrix.tsv": "c4e25f38e2eca56d2211a8ff3a98295df0095735ebcce197fd57ab623555fc90",
+    "measured_perturbation_direction.tsv": "9ae29d6a99baa8d1d06e5309e3eb2c1ab2e2e50ad5bf3cdb01cc357ee436c393"
+  }
+}

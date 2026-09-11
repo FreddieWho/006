@@ -1,8 +1,8 @@
 # v7 执行路线图
 
 版本：v7.0
-日期：2026-08-31
-状态：Stage 0、Stage 1 完成；Stage 2 待启动；尚未运行 v7 科学计算
+日期：2026-09-11
+状态：Stage 0–3基础层已有产物；Stage 4–8审核补修，科学闭合OPEN；Stage 9–10未完成。当前依据results/v7/STATUS.md与docs/v7/STAGE_CLOSURE_REVIEW_2026-09-11.md。
 科学依据：`docs/plan/v7/plan.md`
 
 ---
@@ -227,7 +227,7 @@ claim_id, primary_role, role_source, permitted_role
 
 # Stage 2｜共同生物学词汇与跨模态测量
 
-状态：PENDING
+状态：**COMPLETE**（2026-09-01；response-blind 词汇、全量计量与模态分层 D2 诊断完成）
 
 ## 科学问题
 
@@ -239,7 +239,7 @@ claim_id, primary_role, role_source, permitted_role
 
 - 重放 v6 8 FM 的 gene coverage、carrier、ambient 和 cohort dependence；
 - 保留 scoreable modules，不继承 failure/barrier 名称；
-- 对随机基因集、matched-expression null 和 leave-cohort-out 稳定性做审计。
+- 对随机基因集、保留可观测掩码的 matched-expression null 和 leave-cohort-out 稳定性做审计；未测基因不补0。
 
 ### 2.2 机制轴补齐
 
@@ -288,11 +288,15 @@ claim_id, primary_role, role_source, permitted_role
 
 独立归因资格不作为联合表示的预先删除条件。
 
+实际结果：44 个 count-compatible 对象形成 88 个 coarse/mid count pseudobulk 分片；39 个可执行特征的 scRNA D2 中 7 个为 `measurable`、32 个为 `joint_representation_with_uncertainty`。10 个机制父轴中 1 个全部组件可测，9 个保留混合证据。GSE207422 只有 P05/P08 两个 exact paired patient-timepoint，作为描述性路线证据；GSE193736 只提供 24 个扰动样本的重复性接口，不提供方向验证。bulk/perturbation 不继承 scRNA D2。真实空间 spot/bin/region 投影未在本阶段运行，按合同进入 Stage 3。
+
 ---
 
 # Stage 3｜空间基础设施与最小回放
 
-状态：PENDING
+状态：**COMPLETE_WITH_LIMITATIONS**（D3 通过；2026-09-04；详细方案见 `stage3_implementation_plan.md`）
+
+实际完成 8 个逻辑 pilot 单元、11 个物理捕获、7 个患者身份包，覆盖 HTAN CRC、GSE238264 HCC Visium 和 GSE291246 BCC Xenium。Meylan、USZ TLS 和 ST_CRC_CMS 继续锁定为后续验证数据；本阶段不读取 response，不继承 `/013_spatial` 尚未完成的 K 或潜在场结果。
 
 ## 科学问题
 
@@ -343,13 +347,13 @@ claim_id, primary_role, role_source, permitted_role
 
 ## 决策点 D3
 
-只有通过 identity、coordinate、scale、counts semantics 和 GT isolation 的数据进入 Stage 4。平台适配失败的数据保持 support/reject，不用插值或静默替代核心计算。
+11/11 捕获通过 identity、coordinate、raw-count semantics 和 GT isolation；1 个共同特征在 Visium/Xenium 均完整可测并生成非退化统计。D3 状态为 `D3_PASS_WITH_LIMITATIONS`，可进入 Stage 4。Xenium image/composition 未提供、部分 Stage2 特征面板覆盖不足，均保留为限制，不用插值或静默替代核心计算。
 
 ---
 
 # Stage 4｜Response-blind 空间场与屏障结构发现
 
-状态：PENDING
+状态：OPEN（首轮已有产物；补NMF留出/稳定性及高精度置换，真实topology增量与独立结构验证未闭合）
 
 ## 科学问题
 
@@ -418,22 +422,25 @@ HTAN、Meylan、USZ、ST_CRC_CMS 的 TLS 和边界 GT 用于独立解释/定位 
 - `results/v7/spatial_discovery/architecture_surrogate_validation.tsv`
 - `results/v7/spatial_discovery/leave_dataset_out.tsv`
 - `results/v7/spatial_discovery/SPATIAL_DISCOVERY_REPORT.md`
+- `results/v7/spatial_discovery/PHASE_SUMMARY.md`
+- `results/v7/spatial_discovery/OUTPUT_MANIFEST.yaml`
+- `results/v7/spatial_discovery/DECISION_LOG.md`
+- `results/v7/spatial_discovery/EVIDENCE_AND_CONFLICTS.md`
+- `results/v7/spatial_discovery/NEXT_PHASE_READINESS.yaml`
 
 ## 决策点 D4
 
-- topology 有稳定增量：进入 clinical/context；
-- 只有 abundance 稳定：保留 abundance story，停止空间机制升级；
-- latent field 不稳定：不阻止可解释结构主线；
-- GNN 无增量：删除 GNN；
-- 无结构达到跨数据复现：报告 context-specific 或 unresolved，不制造共享结构；
-- shared/context 候选在读取 response 前版本化；后续 clinical signal 只能注释或否定，不能反向重定义后再复用同一队列验证；
-- surrogate 未在整患者、未触碰数据上证明可转移：非空间队列不得承担 topology claim。
+- 本轮在 71 个捕获、43 位患者、3 个数据集上得到 5 个跨数据集 `shared_function_candidate`；它们仍只承担 response-blind 空间结构 claim。
+- 2,752/2,769 个特征 topology 记录可估计；17 个 Xenium 单元因观测不足保留为不可估计。NMF 有 324 个低秩拟合记录可估计，低观测单元不补算。
+- topology 增量与 marker proxy 调整结果进入 Stage 6/context；不因候选存在而启动 GNN 或复杂 transport。
+- surrogate 因缺少未参与开发的配对多模态验证资产，保持 `NOT_RUN_NO_PAIRED_MULTIMODAL_VALIDATION_ASSET`；非空间队列不得承担 topology claim。
+- shared/context 候选已在读取 response 前版本化；Stage 5 只能注释或否定，不能反向重定义同一候选。
 
 ---
 
 # Stage 5｜PD-1 临床锚定
 
-状态：PENDING
+状态：OPEN（已补共同患者折、环境拆分、训练折基线；独立临床验证未闭合）
 
 ## 科学问题
 
@@ -478,18 +485,25 @@ HTAN、Meylan、USZ、ST_CRC_CMS 的 TLS 和边界 GT 用于独立解释/定位 
 - `results/v7/clinical_anchor/confounding_baselines.tsv`
 - `results/v7/clinical_anchor/responder_compatible_ecology.tsv`
 - `results/v7/clinical_anchor/CLINICAL_ANCHOR_REPORT.md`
+- `results/v7/clinical_anchor/PHASE_SUMMARY.md`
+- `results/v7/clinical_anchor/OUTPUT_MANIFEST.yaml`
+- `results/v7/clinical_anchor/DECISION_LOG.md`
+- `results/v7/clinical_anchor/EVIDENCE_AND_CONFLICTS.md`
+- `results/v7/clinical_anchor/NEXT_PHASE_READINESS.yaml`
 
 ## 决策点 D5
 
-若 cohort-only 仍显著强于生物模型，禁止 shared PD-1 claim；可以保留环境内描述或回到 metadata/measurement 修复。不存在 shared direction 也是合法结果。
+2026-09-11审核修正：以下首轮D5说明保留为历史。GSE238264实际具有7位post-only空间患者的response，原始GEO phenotype核验4R/3NR，现已补5个既定proxy的横断面探索；该来源为开发支持，不能作独立验证、基线预测或纵向空间repair。Stage4B代理仍未验证。下面“无response-linked spatial数据”的绝对表述撤回。
 
-若既无 response-linked spatial 数据、也无通过 Stage 4B 的 surrogate，则 spatial-architecture response association 标记 `NOT_IDENTIFIABLE`；只能形成 module/cell-state 临床锚和独立空间图谱，不能声称该空间结构与 PD-1 failure 相关。
+本轮纳入 125 位患者（GSE286827 28、GSE301741 11、LAMBRECHT_HCC 38、TASK01 25、TASK02 23），完成环境内患者级基线、1,000 次 bootstrap 和 50 次 response permutation。各队列方向不一致且区间较宽，因此不形成 shared PD-1 预测 claim；保留环境内探索性描述。
+
+由于既无 response-linked spatial 数据、也无通过 Stage 4B 的 surrogate，spatial-architecture response association 保持 `NOT_IDENTIFIABLE_WITH_CURRENT_AUDITED_ASSETS`；当前只形成 module/cell-state 临床锚和独立 response-blind 空间图谱。
 
 ---
 
 # Stage 6｜共享结构的临床注释、器官 context 与 HCC 深入分析
 
-状态：PENDING
+状态：OPEN（context描述已有；独立HCC复现与混杂分解未闭合）
 
 ## 科学问题
 
@@ -511,16 +525,21 @@ Stage 4B 已响应盲定义的共享功能结构如何与临床结局相关？HC
 - `results/v7/context/hcc_residual_architectures.tsv`
 - `results/v7/context/context_heterogeneity.tsv`
 - `results/v7/context/SHARED_AND_HCC_CONTEXT_REPORT.md`
+- `results/v7/context/PHASE_SUMMARY.md`
+- `results/v7/context/OUTPUT_MANIFEST.yaml`
+- `results/v7/context/DECISION_LOG.md`
+- `results/v7/context/EVIDENCE_AND_CONFLICTS.md`
+- `results/v7/context/NEXT_PHASE_READINESS.yaml`
 
 ## 决策点 D6
 
-每个对象标为：shared、shared_with_context_modulation、HCC/context-specific、conflicting 或 unresolved。HCC 结果不自动外推到泛癌。
+5 个 Stage 4 候选均保留为 response-blind shared-function candidate；15 个 dataset/platform 实现中保留方向异质性，HCC residual 仅作 GSE238264 post-only 与非 HCC 队列的描述性差异。空间→临床桥接为 `NOT_IDENTIFIABLE_WITH_CURRENT_AUDITED_ASSETS`，HCC 结果不自动外推到泛癌。
 
 ---
 
 # Stage 7｜PD1+X 纵向重排与 repair 判断
 
-状态：PENDING
+状态：OPEN（配对、fraction、组成调整与cross-fit方向已补；独立组合与空间repair未闭合）
 
 ## 科学问题
 
@@ -577,14 +596,18 @@ PD1+X 是否与 residual barrier 的削弱和 responder-compatible ecology 的�
 - `results/v7/repair/repair_compatibility.tsv`
 - `results/v7/repair/negative_combination_controls.tsv`
 - `results/v7/repair/REPAIR_REPORT.md`
+- `results/v7/repair/PHASE_SUMMARY.md`
+- `results/v7/repair/OUTPUT_MANIFEST.yaml`
+- `results/v7/repair/DECISION_LOG.md`
+- `results/v7/repair/EVIDENCE_AND_CONFLICTS.md`
+- `results/v7/repair/NEXT_PHASE_READINESS.yaml`
 
 ## 决策点 D7
 
-- 有 paired/外部一致证据：升级 repair-compatible hypothesis；
-- 只有组合队列横断面关联：只称 combination-associated state；
-- mono/combo 不可交换：不得声称 X 增量效应；
-- 位移方向冲突或由 QC/composition 解释：候选降级或否定。
-- 无纵向 spatial 且 surrogate 未通过：空间 repair 保持 `NOT_IDENTIFIABLE`，不以 post-only 空间支持替代。
+- TASK01/TASK02 形成 3,432 条患者内分子位移记录（47 位患者）；可继续做 response-stratified molecular repair hypothesis，但不指定统一方向。
+- response permutation 与 pairing permutation 均已运行；TASK01/TASK02 的 mono/combo 不可交换，因此不得声称 X 增量效应。
+- 无纵向 spatial 且 surrogate 未通过：空间 repair 保持 `NOT_IDENTIFIABLE_WITH_CURRENT_AUDITED_ASSETS`，不以 post-only 空间支持替代。
+- 下一步转入 Stage 8 的真实扰动、靶点/载体可达性和外部患者证据。
 
 ---
 
@@ -764,22 +787,25 @@ barrier–repair mapping 能否推广到未见 X-class，而不是记住药名�
 
 ## 6. 当前立即执行顺序
 
-本次 v7 reset 完成后，下一轮只应启动以下三项：
+审核覆盖说明：以下是原首轮顺序，不能据此跳过未执行的空间/临床核心任务。当前按docs/v7/STAGE_CLOSURE_REVIEW_2026-09-11.md的任务表推进；完整Stage4–8仍OPEN。
 
-1. **Stage 1 cross-repository registry**：先知道真实患者、block、section、治疗和 response 面；
-2. **Stage 2 module/cell-state vocabulary audit**：补足 vascular/CAF/myeloid/exhaustion 等空间 repair 轴；
-3. **Stage 3 minimal spatial replay**：用少数高价值数据证明多平台接口、GT 隔离和患者级统计成立。
+Stage 1–7 已完成并形成可复用输入合同。当前顺序为：
 
-在这三项完成前，不启动全量空间训练、PD1+X 复杂模型、GNN 或 zero-shot X-class。
+1. **Stage 8 真实扰动与 target/carrier reachability**：检查候选 X-class 的载体表达、扰动方向和外部患者可达性；
+2. **外部患者证据**：优先寻找同一功能结构的独立 response-linked 数据，并保持患者级角色隔离；
+3. **配对空间资产审计**：继续寻找同时含患者级空间结构与 response 的独立数据；若仍无，则正式保留 `NOT_IDENTIFIABLE`，不把 post-only 空间队列当作纵向修复证据。
+
+538 条因缺少 block 编号而排除的记录先做资格复核；身份不明或重复关系不清的记录不直接进入独立患者分析。首轮不启动 GNN、复杂 transport 或 zero-shot X-class。
 
 ---
 
 ## 7. 当前状态声明
 
-截至 2026-08-31：
+截至 2026-09-11：
 
 - v7 科学方案与路线图已形成；
 - v6/013 资产已完成初步只读继承审计；
-- 仓库正在重组并准备 GitHub 提交；
-- v7 registry、ontology、spatial foundation、clinical anchor、repair 和 X-class 计算均为 **NOT_RUN**；
-- 当前没有 v7 新生物学结论。
+- Stage 1 registry、Stage 2 ontology/measurement、Stage 3 spatial foundation 已完成；
+- Stage 4 response-blind 空间发现与 Stage 5 患者级临床基线已完成，均为 `COMPLETE_WITH_LIMITATIONS`；
+- Stage 6 context 已完成但带限制；Stage 7 已完成分子/细胞基线但空间分支受限；Stage 8 external validation、Stage 9 X-class 外推和 Stage 10 论文闭合仍为 **NOT_RUN**；
+- 当前证据支持“跨数据集空间邻接候选 + 环境内分子/细胞临床锚”，不支持空间屏障、PD-1 failure、PD1+X repair 或因果机制结论。
